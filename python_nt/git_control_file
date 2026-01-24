@@ -1,0 +1,8 @@
+-- bu buyruqlar qilgan ozgarishlarni githubga joylash uchun kerak
+git add .
+git commit -m "update"
+git push
+
+-- bular esa qanaqa ozgarishlar bulganini korish uchun kerak
+git status
+git diff
