@@ -1,0 +1,196 @@
+--  1-JADVAL
+
+-- CREATE TABLE customers ( 
+-- customer_id INT, 
+-- customer_name VARCHAR(50), 
+-- city VARCHAR(50) 
+-- );
+
+-- CREATE TABLE orders ( 
+-- order_id INT, 
+-- customer_id INT, 
+-- order_date DATE, 
+-- total_amount NUMERIC(10,2) 
+-- );
+
+-- INSERT INTO customers VALUES 
+-- (1, 'Ali Karimov', 'Tashkent'), 
+-- (2, 'Malika Xudoyberdiyeva', 'Samarkand'), 
+-- (3, 'Jasur Ahmedov', 'Tashkent'), 
+-- (4, 'Nodira Xolmatova', 'Bukhara'), 
+-- (5, 'Dilshod Rustamov', 'Tashkent'); 
+
+-- INSERT INTO orders VALUES 
+-- (101, 1, '2025-03-15', 450000.00), 
+-- (102, 2, '2025-04-01', 320000.00), 
+-- (103, 3, '2025-05-10', 500000.00), 
+-- (104, 1, '2025-06-01', 600000.00), 
+-- (105, 5, '2025-06-10', 700000.00), 
+-- (106, 4, '2025-07-12', 250000.00), 
+-- (107, 3, '2025-07-20', 480000.00); 
+-- Yechim
+-- select  
+-- c.customer_id,
+-- c.customer_name,
+-- o.order_date, 
+-- c.city,
+-- o.total_amount
+-- from  customers as c
+-- inner join orders as o
+-- on c.customer_id = o.customer_id
+-- ozimniki
+-- where o.order_date = (
+--   select max(order_date)
+--   from orders
+--   where customer_id = c.customer_id
+-- ) and c.city = 'Tashkent'
+
+-- 2-JADVAL
+-- CREATE TABLE students ( 
+-- student_id INT, 
+-- full_name VARCHAR(50), 
+-- group_name VARCHAR(20) 
+-- ); 
+-- CREATE TABLE enrollments ( 
+-- student_id INT, 
+-- course_id INT, 
+-- grade INT 
+-- ); 
+-- CREATE TABLE courses ( 
+-- course_id INT, 
+-- course_name VARCHAR(50), 
+-- teacher VARCHAR(50) 
+-- ); 
+-- INSERT INTO students VALUES 
+-- (1, 'Dilshod Rakhimov', 'DA-1'), 
+-- (2, 'Aziza Nurmatova', 'DA-1'), 
+-- (3, 'Javlon Toirov', 'DA-2'), 
+-- (4, 'Madina Umarova', 'DA-3'), 
+-- (5, 'Sherzod Karimov', 'DA-2');
+-- INSERT INTO courses VALUES 
+-- (11, 'SQL Fundamentals', 'Mr. Jamshid'), 
+-- (12, 'Python for Data', 'Ms. Dildora'), 
+-- (13, 'Excel Analytics', 'Mr. Farruh'); 
+-- INSERT INTO enrollments VALUES 
+-- (1, 11, 90), 
+-- (2, 12, 88), 
+-- (3, 11, 70), 
+-- (4, 13, 92), 
+-- (5, 11, 85), 
+-- (1, 12, 80), 
+-- (2, 13, 95); 
+-- Yechim
+-- select s.full_name, s.group_name, c.course_name, e.grade 
+-- from students as s
+-- join enrollments as e
+--   on s.student_id = e.student_id
+-- join courses as c
+--   on c.course_id = e.course_id
+-- where grade > 85
+
+-- 3-jadval
+-- CREATE TABLE departments ( 
+-- dept_id INT, 
+-- dept_name VARCHAR(50), 
+-- location VARCHAR(50) 
+-- );
+-- CREATE TABLE employees ( 
+-- emp_id INT, 
+-- emp_name VARCHAR(50), 
+-- dept_id INT, 
+-- salary NUMERIC(10,2) 
+-- ); 
+-- INSERT INTO departments VALUES 
+-- (1, 'IT', 'Tashkent'), 
+-- (2, 'Finance', 'Samarkand'), 
+-- (3, 'HR', 'Bukhara'), 
+-- (4, 'Marketing', 'Andijan');
+-- INSERT INTO employees VALUES 
+-- (1, 'Sardor Ibrohimov', 1, 8000000), 
+-- (2, 'Nilufar Jo‘raeva', 2, 6000000), 
+-- (3, 'Bekzod Karimov', 1, 9000000), 
+-- (4, 'Aziza Tursunova', 4, 5000000), 
+-- (5, 'Shaxzod G‘ulomov', 3, 5500000), 
+-- (6, 'Malika Ergasheva', 1, 7500000);
+-- Yechim
+-- select e.emp_name, d.dept_name, d.location, e.salary
+-- from employees as e
+-- join departments as d
+-- on e.dept_id = d.dept_id
+-- where dept_name = 'IT' 
+-- order by salary desc
+
+-- 4-jadval
+-- CREATE TABLE categories ( 
+-- category_id INT, 
+-- category_name VARCHAR(50) 
+-- ); 
+-- CREATE TABLE products ( 
+-- product_id INT, 
+-- product_name VARCHAR(50), 
+-- category_id INT, 
+-- price NUMERIC(10,2) 
+-- ); 
+-- INSERT INTO categories VALUES 
+-- (1, 'Electronics'), 
+-- (2, 'Clothing'), 
+-- (3, 'Home Appliances'), 
+-- (4, 'Sports');
+-- INSERT INTO products VALUES 
+-- (1, 'Smartphone', 1, 2500000), 
+-- (2, 'T-shirt', 2, 120000), 
+-- (3, 'Laptop', 1, 7000000), 
+-- (4, 'Microwave Oven', 3, 1500000), 
+-- (5, 'Refrigerator', 3, 4800000), 
+-- (6, 'Football', 4, 250000), 
+-- (7, 'Headphones', 1, 600000), 
+-- (8, 'Jacket', 2, 400000);
+-- Yechim
+-- select p.product_name, c.category_name, p.price
+-- from categories as c
+-- join products as p
+-- on c.category_id = p.category_id
+-- where price > 100000
+-- order by category_name
+
+
+
+
+-- 5-jadval
+-- CREATE TABLE airports ( 
+-- airport_id INT, 
+-- city VARCHAR(50), 
+-- airport_name VARCHAR(50) 
+-- ); 
+-- CREATE TABLE flights ( 
+-- flight_id INT, 
+-- origin_airport_id INT, 
+-- destination_airport_id INT, 
+-- flight_time TIME 
+-- ); 
+-- INSERT INTO airports VALUES 
+-- (1, 'Tashkent', 'TAS Airport'), 
+-- (2, 'Dubai', 'DXB Airport'), 
+-- (3, 'Istanbul', 'IST Airport'), 
+-- (4, 'Moscow', 'SVO Airport'), 
+-- (5, 'Bukhara', 'BHK Airport'); 
+-- INSERT INTO flights VALUES 
+-- (1001, 1, 2, '04:30:00'), 
+-- (1002, 1, 3, '05:15:00'), 
+-- (1003, 1, 4, '04:45:00'), 
+-- (1004, 2, 3, '04:10:00'), 
+-- (1005, 3, 1, '05:40:00'), 
+-- (1006, 5, 1, '01:10:00'); 
+--Yechim
+-- select f.flight_id, a1.airport_name as origin_airport_name,
+-- a2.airport_name as destination_airport_name, f.flight_time
+-- from flights as f
+-- inner join airports as a1 on (a1.airport_id = f.origin_airport_id)
+-- inner join airports as a2 on (a2.airport_id = f.destination_airport_id)
+-- where a1.city = 'Tashkent';
+
+
+
+
+
+
