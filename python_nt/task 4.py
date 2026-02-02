@@ -42,13 +42,12 @@
 t = (1, (2, (3, (4, 5))))
 lst = list(t)    #
 result = []
-
 while lst:
-    x = lst.pop(0)       # birinchi elementni olinadi
+    x = lst.pop(0)
     if isinstance(x, int):
         result.append(x)
     else:
-        lst = list(x) + lst   # ichidagi tuple’ni oldinga qo‘shamiz
+        lst = list(x) + lst
 print(result)
 print("Yig‘indisi:", sum(result))
 
