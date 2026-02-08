@@ -1,3 +1,4 @@
+#                                              HOMEWORK
 #   1-savol
 # def bankomat():
 #     balans = 100000
@@ -20,7 +21,7 @@
 #             print(t)
 #         except IndexError as i:
 #             print(i)
-# bankomat()
+# bankomat(
 
 #    2-Savol
 # def juft_toq():
