@@ -1,4 +1,4 @@
-# 📊 Data Analytics Learning Repository
+# 📊 Data Analytics Repository. Najot Ta'lim
 
 This repository contains all my practice materials, tasks, and projects completed during my Data Analytics learning journey.
 
