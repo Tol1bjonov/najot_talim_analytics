@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "first_name": "Yusufjon",
+        "last_name": "Tolibjonov",
+        "email": "ali.islomov@example.com",
+        "department": "IT",
+        "salary": 2500
+    },
+    {
+        "id": 2,
+        "first_name": "Malika",
+        "last_name": "Karimova",
+        "email": "malika.karimova@example.com",
+        "department": "Finance",
+        "salary": 2200
+    },
+    {
+        "id": 3,
+        "first_name": "Diyor",
+        "last_name": "Ahmedov",
+        "email": "diyor.ahmedov@example.com",
+        "department": "HR",
+        "salary": 2000
+    },
+    {
+        "id": 4,
+        "first_name": "Nilufar",
+        "last_name": "Saidova",
+        "email": "nilufar.saidova@example.com",
+        "department": "Marketing",
+        "salary": 2100
+    },
+    {
+        "id": 5,
+        "first_name": "Anvar",
+        "last_name": "Tursunov",
+        "email": "anvar.tursunov@example.com",
+        "department": "IT",
+        "salary": 2700
+    }
+]

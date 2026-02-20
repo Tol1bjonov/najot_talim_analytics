@@ -1,0 +1,3026 @@
+{
+ "name": "N11|19:00|Data Analitika",
+ "type": "private_supergroup",
+ "id": 3200944662,
+ "messages": [
+  {
+   "id": 112,
+   "type": "message",
+   "date": "2026-01-01T00:00:06",
+   "date_unixtime": "1767207606",
+   "edited": "2026-01-01T00:05:38",
+   "edited_unixtime": "1767207938",
+   "from": "Sanjar",
+   "from_id": "user801102101",
+   "text": "Хаммага Ассалому алайкум, кириб келган 2026 - йил билан хаммани табриклайман, хаммага омадли ва баракали йил булиб келсин.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Хаммага Ассалому алайкум, кириб келган 2026 - йил билан хаммани табриклайман, хаммага омадли ва баракали йил булиб келсин."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 8,
+      "emoji": "🔥",
+      "recent": [
+       {
+        "from": "Abduvahobov",
+        "from_id": "user2110787270",
+        "date": "2026-01-02T10:55:38"
+       },
+       {
+        "from": "Бек",
+        "from_id": "user675073770",
+        "date": "2026-01-02T10:35:10"
+       },
+       {
+        "from": "Мухаммадазиз ",
+        "from_id": "user5387896001",
+        "date": "2026-01-01T12:23:27"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 113,
+   "type": "message",
+   "date": "2026-01-05T14:56:22",
+   "date_unixtime": "1767606982",
+   "from": "Бек",
+   "from_id": "user675073770",
+   "text": "Assalamu alaykum\nBugun dars buladimi?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalamu alaykum\nBugun dars buladimi?"
+    }
+   ]
+  },
+  {
+   "id": 114,
+   "type": "message",
+   "date": "2026-01-05T16:17:27",
+   "date_unixtime": "1767611847",
+   "edited": "2026-01-05T16:40:25",
+   "edited_unixtime": "1767613225",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 113,
+   "text": "Assalomu aleykum, bugun dars bo'ladi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu aleykum, bugun dars bo'ladi."
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🤝",
+      "recent": [
+       {
+        "from": "Бек",
+        "from_id": "user675073770",
+        "date": "2026-01-05T16:40:25"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 115,
+   "type": "message",
+   "date": "2026-01-05T19:37:41",
+   "date_unixtime": "1767623861",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "-- BEGIN;\nSTART TRANSACTION;\n\nINSERT INTO students(full_name, score)\nVALUES('Rano_2', 99);\nSAVEPOINT insert_1;\n\nINSERT INTO students(full_name, score)\nVALUES('Rano_3', 99);\nSAVEPOINT insert_2;\n\nUPDATE students SET score = 100 WHERE full_name = 'Sami';\nSAVEPOINT update_sami;",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "-- BEGIN;\nSTART TRANSACTION;\n\nINSERT INTO students(full_name, score)\nVALUES('Rano_2', 99);\nSAVEPOINT insert_1;\n\nINSERT INTO students(full_name, score)\nVALUES('Rano_3', 99);\nSAVEPOINT insert_2;\n\nUPDATE students SET score = 100 WHERE full_name = 'Sami';\nSAVEPOINT update_sami;",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "type": "message",
+   "date": "2026-01-05T20:01:40",
+   "date_unixtime": "1767625300",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "CREATE TABLE logins (\n    user_id INT,\n    login_date DATE\n);\nINSERT INTO logins VALUES\n(1,'2024-01-01'),\n(1,'2024-01-02'),\n(1,'2024-01-04'),\n(1,'2024-01-05'),\n(2,'2024-01-01'),\n(2,'2024-01-03');",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "CREATE TABLE logins (\n    user_id INT,\n    login_date DATE\n);\nINSERT INTO logins VALUES\n(1,'2024-01-01'),\n(1,'2024-01-02'),\n(1,'2024-01-04'),\n(1,'2024-01-05'),\n(2,'2024-01-01'),\n(2,'2024-01-03');",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 117,
+   "type": "message",
+   "date": "2026-01-05T20:23:50",
+   "date_unixtime": "1767626630",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "DROP TABLE IF EXISTS transactions;\n\nCREATE TABLE transactions (\n    user_id INT,\n    trx_date DATE,\n    amount INT\n);\n\nINSERT INTO transactions VALUES\n(1, '2024-01-01',  100),\n(1, '2024-01-03',  -50),\n(1, '2024-01-05',  -70),\n(1, '2024-01-07',   40),\n\n(2, '2024-01-02',  200),\n(2, '2024-01-04', -100),\n(2, '2024-01-06', -150),\n\n(3, '2024-01-01',   50),\n(3, '2024-01-10',  -20);",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "DROP TABLE IF EXISTS transactions;\n\nCREATE TABLE transactions (\n    user_id INT,\n    trx_date DATE,\n    amount INT\n);\n\nINSERT INTO transactions VALUES\n(1, '2024-01-01',  100),\n(1, '2024-01-03',  -50),\n(1, '2024-01-05',  -70),\n(1, '2024-01-07',   40),\n\n(2, '2024-01-02',  200),\n(2, '2024-01-04', -100),\n(2, '2024-01-06', -150),\n\n(3, '2024-01-01',   50),\n(3, '2024-01-10',  -20);",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "type": "message",
+   "date": "2026-01-05T21:00:04",
+   "date_unixtime": "1767628804",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "WITH cte AS(\n  SELECT * FROM (\n    SELECT \n      *,\n      SUM(amount) OVER(PARTITION BY user_id ORDER BY trx_date) AS rn_total\n    FROM transactions\n  )\n  WHERE rn_total < 0\n), cte_2 AS(\n  SELECT \n    *,\n    ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY trx_date) AS rnk\n  FROM cte\n)\nSELECT * FROM cte_2\nWHERE rnk = 1;",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "WITH cte AS(\n  SELECT * FROM (\n    SELECT \n      *,\n      SUM(amount) OVER(PARTITION BY user_id ORDER BY trx_date) AS rn_total\n    FROM transactions\n  )\n  WHERE rn_total < 0\n), cte_2 AS(\n  SELECT \n    *,\n    ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY trx_date) AS rnk\n  FROM cte\n)\nSELECT * FROM cte_2\nWHERE rnk = 1;",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 119,
+   "type": "message",
+   "date": "2026-01-07T12:04:35",
+   "date_unixtime": "1767769475",
+   "from": "Chilonzor | Admin",
+   "from_id": "user2147391793",
+   "forwarded_from": "Techjobs kanali",
+   "forwarded_from_id": "channel1753486718",
+   "photo": "photos/photo_6@07-01-2026_12-04-35.jpg",
+   "photo_file_size": 81091,
+   "width": 1080,
+   "height": 1080,
+   "text": [
+    "🇬🇧 ",
+    {
+     "type": "bold",
+     "text": "Hamma kutgan Rus tili klubi boshlandi!"
+    },
+    "\n\nTilni faqat kitobdan emas, ",
+    {
+     "type": "bold",
+     "text": "amaliy suhbatlar"
+    },
+    " orqali o‘rganmoqchimisiz?\nEndi bu imkoniyat aynan siz uchun! 💬\n\nBiz sizni ",
+    {
+     "type": "bold",
+     "text": "Rus tili klubi"
+    },
+    "ga taklif qilamiz!\nBu yerda siz:\n✨ erkin gapirishni o‘rganasiz,\n✨ yangi do‘stlar orttirasiz,\n✨ va rus tilida o‘zingizga ishonch hosil qilasiz!\n\n🗓 ",
+    {
+     "type": "bold",
+     "text": "Har chorshanba, soat 16:30"
+    },
+    "\n📍 ",
+    {
+     "type": "bold",
+     "text": "Najot Ta’lim, Chilonzor filiali"
+    },
+    "\n💸 ",
+    {
+     "type": "bold",
+     "text": "Ishtirok etish — mutlaqo bepul!"
+    },
+    "\n\n🔹 ",
+    {
+     "type": "bold",
+     "text": "Kimlar uchun?"
+    },
+    "\nNajot Ta’lim jamoasi va ayni paytda o‘qiyotgan talabalari shuningdek, “START” loyihasi qatnashchilari uchun.  \n\n🎯 Keling, rus tilida erkin suhbatlashishni birgalikda o‘rganamiz!\n",
+    {
+     "type": "bold",
+     "text": "TechJobs Language Club — Til bil, dunyoga chiq!"
+    },
+    " 🌍\n\n👉 ",
+    {
+     "type": "bold",
+     "text": "Murojaat uchun: "
+    },
+    {
+     "type": "mention",
+     "text": "@techjobsadmin"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "🇬🇧 "
+    },
+    {
+     "type": "bold",
+     "text": "Hamma kutgan Rus tili klubi boshlandi!"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nTilni faqat kitobdan emas, "
+    },
+    {
+     "type": "bold",
+     "text": "amaliy suhbatlar"
+    },
+    {
+     "type": "plain",
+     "text": " orqali o‘rganmoqchimisiz?\nEndi bu imkoniyat aynan siz uchun! 💬\n\nBiz sizni "
+    },
+    {
+     "type": "bold",
+     "text": "Rus tili klubi"
+    },
+    {
+     "type": "plain",
+     "text": "ga taklif qilamiz!\nBu yerda siz:\n✨ erkin gapirishni o‘rganasiz,\n✨ yangi do‘stlar orttirasiz,\n✨ va rus tilida o‘zingizga ishonch hosil qilasiz!\n\n🗓 "
+    },
+    {
+     "type": "bold",
+     "text": "Har chorshanba, soat 16:30"
+    },
+    {
+     "type": "plain",
+     "text": "\n📍 "
+    },
+    {
+     "type": "bold",
+     "text": "Najot Ta’lim, Chilonzor filiali"
+    },
+    {
+     "type": "plain",
+     "text": "\n💸 "
+    },
+    {
+     "type": "bold",
+     "text": "Ishtirok etish — mutlaqo bepul!"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n🔹 "
+    },
+    {
+     "type": "bold",
+     "text": "Kimlar uchun?"
+    },
+    {
+     "type": "plain",
+     "text": "\nNajot Ta’lim jamoasi va ayni paytda o‘qiyotgan talabalari shuningdek, “START” loyihasi qatnashchilari uchun.  \n\n🎯 Keling, rus tilida erkin suhbatlashishni birgalikda o‘rganamiz!\n"
+    },
+    {
+     "type": "bold",
+     "text": "TechJobs Language Club — Til bil, dunyoga chiq!"
+    },
+    {
+     "type": "plain",
+     "text": " 🌍\n\n👉 "
+    },
+    {
+     "type": "bold",
+     "text": "Murojaat uchun: "
+    },
+    {
+     "type": "mention",
+     "text": "@techjobsadmin"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 120,
+   "type": "message",
+   "date": "2026-01-07T14:35:50",
+   "date_unixtime": "1767778550",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "text": "Test",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Test"
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "type": "message",
+   "date": "2026-01-07T14:41:38",
+   "date_unixtime": "1767778898",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "photo": "photos/photo_7@07-01-2026_14-41-38.jpg",
+   "photo_file_size": 126511,
+   "width": 1280,
+   "height": 720,
+   "text": "Telegramda reklama berishingiz kerakligining TOP sabablari🛫\n\nTelegramda deyarli har bir kanalning ostidan chiqadigan reklamalarga ko‘zingiz tushgan. Xo‘sh, Telegramda reklama berish o‘zi qanchalik foyda beradi va Instagramdan afzal tomonlari qanday?\n\n💻Tepadagi savollarga javob olishni istasangiz sizni «Nima uchun Telegram Ads 2026-yilda marketing strategiyangizda bo‘lishi shart?» mavzusida bo'lib o'tadigan master-klasssimizda kutib qolamiz.\n\nMaster-klass ko‘p yillik tajribaga ega Meridians marketing agentligi va malakali targetolog Muhammadjonov Nodirbek tomonidan olib boriladi.\n\n📅 Qachon: 10-yanvar, shanba, soat 14:00\n🙋 Kim uchun: Barcha uchun\n📍 Qayerda: «Najot Ta'lim», Chilonzor filialida\n\n🔗 Ro'yxatdan o'tish\n\nP.S. Telegramning yangi imkoniyatlaridan boxabar bo'lishni istasangiz, bu master-klassni o‘tkazib yubormang! 🚀",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Telegramda reklama berishingiz kerakligining TOP sabablari🛫\n\nTelegramda deyarli har bir kanalning ostidan chiqadigan reklamalarga ko‘zingiz tushgan. Xo‘sh, Telegramda reklama berish o‘zi qanchalik foyda beradi va Instagramdan afzal tomonlari qanday?\n\n💻Tepadagi savollarga javob olishni istasangiz sizni «Nima uchun Telegram Ads 2026-yilda marketing strategiyangizda bo‘lishi shart?» mavzusida bo'lib o'tadigan master-klasssimizda kutib qolamiz.\n\nMaster-klass ko‘p yillik tajribaga ega Meridians marketing agentligi va malakali targetolog Muhammadjonov Nodirbek tomonidan olib boriladi.\n\n📅 Qachon: 10-yanvar, shanba, soat 14:00\n🙋 Kim uchun: Barcha uchun\n📍 Qayerda: «Najot Ta'lim», Chilonzor filialida\n\n🔗 Ro'yxatdan o'tish\n\nP.S. Telegramning yangi imkoniyatlaridan boxabar bo'lishni istasangiz, bu master-klassni o‘tkazib yubormang! 🚀"
+    }
+   ]
+  },
+  {
+   "id": 122,
+   "type": "message",
+   "date": "2026-01-07T15:29:46",
+   "date_unixtime": "1767781786",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "text": [
+    "Assalomu alaykum hurmatli o’quvchilar\n\nBotdagi ba’zi muammolar tufayli ro’yxatdan o’tish linki ishlamayotgan ekan.\n\nShu sabab master-klassimizga kanaldagi post orqali ro’yxatdan o’tsangiz bo’ladi.\n\nBu bo’yicha qandaydur muammo bo’lsa ",
+    {
+     "type": "mention",
+     "text": "@najoteduadmin"
+    },
+    " ga yozing ✔️\n\nE’tiboringiz uchun rahmat )"
+   ],
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu alaykum hurmatli o’quvchilar\n\nBotdagi ba’zi muammolar tufayli ro’yxatdan o’tish linki ishlamayotgan ekan.\n\nShu sabab master-klassimizga kanaldagi post orqali ro’yxatdan o’tsangiz bo’ladi.\n\nBu bo’yicha qandaydur muammo bo’lsa "
+    },
+    {
+     "type": "mention",
+     "text": "@najoteduadmin"
+    },
+    {
+     "type": "plain",
+     "text": " ga yozing ✔️\n\nE’tiboringiz uchun rahmat )"
+    }
+   ]
+  },
+  {
+   "id": 123,
+   "type": "message",
+   "date": "2026-01-07T20:09:18",
+   "date_unixtime": "1767798558",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "// User yaratish\nCREATE USER oybek WITH PASSWORD '0000';\n// User yaratish\nCREATE ROLE oybek_1 LOGIN PASSWORD '0000';\n// Super user yaratish \nCREATE USER oybek_admin WITH PASSWORD '1111' SUPERUSER;\n// Oddin userni super user qilish \nALTER USER new_user WITH SUPERUSER;",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "// User yaratish\nCREATE USER oybek WITH PASSWORD '0000';\n// User yaratish\nCREATE ROLE oybek_1 LOGIN PASSWORD '0000';\n// Super user yaratish \nCREATE USER oybek_admin WITH PASSWORD '1111' SUPERUSER;\n// Oddin userni super user qilish \nALTER USER new_user WITH SUPERUSER;",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 124,
+   "type": "message",
+   "date": "2026-01-07T20:09:25",
+   "date_unixtime": "1767798565",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "//Dabasega bog'lanishga ruxsat berish.\nGRANT CONNECT ON DATABASE lesson_16 TO oybek; \n\n//Schemadan foydalanishga ro'xsat berish.\nGRANT USAGE ON SCHEMA sale TO oybek;\n\n//Tableni select qilishga ruhsat berish.\nGRANT SELECT ON TABLE logins TO oybek;\n\n// Schemaning ichidagi hamma tablelarga select qilishga ruhsat berish.\nGRANT SELECT ON ALL TABLES IN SCHEMA sh TO oybek; \n\n// Table yaratishga ruxsat berish.\nGRANT CREATE ON SCHEMA sale TO oybek_1;\n\n//Hamma ruxsatlarni berish.\nGRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA sale TO oybek;",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "//Dabasega bog'lanishga ruxsat berish.\nGRANT CONNECT ON DATABASE lesson_16 TO oybek; \n\n//Schemadan foydalanishga ro'xsat berish.\nGRANT USAGE ON SCHEMA sale TO oybek;\n\n//Tableni select qilishga ruhsat berish.\nGRANT SELECT ON TABLE logins TO oybek;\n\n// Schemaning ichidagi hamma tablelarga select qilishga ruhsat berish.\nGRANT SELECT ON ALL TABLES IN SCHEMA sh TO oybek; \n\n// Table yaratishga ruxsat berish.\nGRANT CREATE ON SCHEMA sale TO oybek_1;\n\n//Hamma ruxsatlarni berish.\nGRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA sale TO oybek;",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 125,
+   "type": "message",
+   "date": "2026-01-07T20:09:32",
+   "date_unixtime": "1767798572",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "//Tabledan ruxsatni olish.\nREVOKE SELECT ON TABLE sale.orders FROM oybek;\n\n// Schemadan hamma ruxsatlarni olib tashlash.\nREVOKE ALL PRIVILEGES ON SCHEMA sale FROM oybek; \n\n// Databasedan hamma ruxsatlarni olib tashlash.\nREVOKE ALL PRIVILEGES ON DATABASE lesson_5 FROM oybek;\n\n// Userdan hamma huquqlarni olish.\nDROP OWNED BY oybek;\nDROP USER oybek;",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "//Tabledan ruxsatni olish.\nREVOKE SELECT ON TABLE sale.orders FROM oybek;\n\n// Schemadan hamma ruxsatlarni olib tashlash.\nREVOKE ALL PRIVILEGES ON SCHEMA sale FROM oybek; \n\n// Databasedan hamma ruxsatlarni olib tashlash.\nREVOKE ALL PRIVILEGES ON DATABASE lesson_5 FROM oybek;\n\n// Userdan hamma huquqlarni olish.\nDROP OWNED BY oybek;\nDROP USER oybek;",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 126,
+   "type": "message",
+   "date": "2026-01-07T20:40:54",
+   "date_unixtime": "1767800454",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "DROP TABLE IF EXISTS customers;\n\nCREATE TABLE customers (\n    id SERIAL PRIMARY KEY,\n    email TEXT,\n    created_at TIMESTAMP\n);\n\nINSERT INTO customers (email, created_at) VALUES\n('a@gmail.com', '2024-01-01 09:00'),\n('a@gmail.com', '2024-01-03 10:00'),\n('a@gmail.com', '2024-01-05 11:00'),\n\n('b@gmail.com', '2024-01-02 08:00'),\n('b@gmail.com', '2024-01-04 09:00'),\n\n('c@gmail.com', '2024-01-01 07:00');",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "DROP TABLE IF EXISTS customers;\n\nCREATE TABLE customers (\n    id SERIAL PRIMARY KEY,\n    email TEXT,\n    created_at TIMESTAMP\n);\n\nINSERT INTO customers (email, created_at) VALUES\n('a@gmail.com', '2024-01-01 09:00'),\n('a@gmail.com', '2024-01-03 10:00'),\n('a@gmail.com', '2024-01-05 11:00'),\n\n('b@gmail.com', '2024-01-02 08:00'),\n('b@gmail.com', '2024-01-04 09:00'),\n\n('c@gmail.com', '2024-01-01 07:00');",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 127,
+   "type": "message",
+   "date": "2026-01-07T20:54:06",
+   "date_unixtime": "1767801246",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "DELETE FROM customers c\nUSING(\n  SELECT * FROM (\n    SELECT \n      *, \n      ROW_NUMBER() OVER(PARTITION BY email ORDER BY created_at) AS rnk\n    FROM customers\n  ) WHERE rnk != 1\n) d\nWHERE c.id = d.id",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "DELETE FROM customers c\nUSING(\n  SELECT * FROM (\n    SELECT \n      *, \n      ROW_NUMBER() OVER(PARTITION BY email ORDER BY created_at) AS rnk\n    FROM customers\n  ) WHERE rnk != 1\n) d\nWHERE c.id = d.id",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 128,
+   "type": "message",
+   "date": "2026-01-08T13:04:48",
+   "date_unixtime": "1767859488",
+   "from": "Мухаммадазиз ",
+   "from_id": "user5387896001",
+   "text": "Ассалому Алайкум",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ассалому Алайкум"
+    }
+   ]
+  },
+  {
+   "id": 129,
+   "type": "message",
+   "date": "2026-01-08T13:04:55",
+   "date_unixtime": "1767859495",
+   "from": "Мухаммадазиз ",
+   "from_id": "user5387896001",
+   "reply_to_message_id": 127,
+   "text": "устоз бугун дарсми",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "устоз бугун дарсми"
+    }
+   ]
+  },
+  {
+   "id": 130,
+   "type": "message",
+   "date": "2026-01-08T13:05:35",
+   "date_unixtime": "1767859535",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 128,
+   "text": "Volaykum assalom",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Volaykum assalom"
+    }
+   ]
+  },
+  {
+   "id": 131,
+   "type": "message",
+   "date": "2026-01-08T13:06:13",
+   "date_unixtime": "1767859573",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 129,
+   "text": "Yo bugun o’tolmas ekanmiz",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yo bugun o’tolmas ekanmiz"
+    }
+   ]
+  },
+  {
+   "id": 132,
+   "type": "message",
+   "date": "2026-01-09T18:59:15",
+   "date_unixtime": "1767967155",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_size": 5557538,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 15821,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 35,
+   "width": 640,
+   "height": 640,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 133,
+   "type": "message",
+   "date": "2026-01-09T18:59:16",
+   "date_unixtime": "1767967156",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "text": [
+    {
+     "type": "bold",
+     "text": "Sizni ertagalik master-klassimizda kutib qolamiz "
+    },
+    "🙂",
+    {
+     "type": "bold",
+     "text": "\n\n"
+    },
+    "🗓 ",
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    ": 10-yanvar, shanba soat 14:00\n👥 ",
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    ": Barcha uchun ochiq\n📍 ",
+    {
+     "type": "bold",
+     "text": "Manzil:"
+    },
+    " “Najot Ta’lim”, ",
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "https://yandex.com/maps/org/94800077397?si=d7hvbawzpux0jpb5ynk360x944"
+    },
+    "\n\n🔗  ",
+    {
+     "type": "text_link",
+     "text": "Ro'yxatdan o'tish",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSeMBs_AE7kRqwTVy6ifnnlvrlSuSB9jr9CRx9E8mWsLkIT_Eg/viewform?usp=sharing&ouid=116987081343019423147"
+    },
+    "\n\n",
+    {
+     "type": "spoiler",
+     "text": "Telegramning keng imkoniyatlaridan boxabar bo'lishni istasangiz, master-klassimizni o'tkazib yubormang :)"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "bold",
+     "text": "Sizni ertagalik master-klassimizda kutib qolamiz "
+    },
+    {
+     "type": "plain",
+     "text": "🙂"
+    },
+    {
+     "type": "bold",
+     "text": "\n\n"
+    },
+    {
+     "type": "plain",
+     "text": "🗓 "
+    },
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    {
+     "type": "plain",
+     "text": ": 10-yanvar, shanba soat 14:00\n👥 "
+    },
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    {
+     "type": "plain",
+     "text": ": Barcha uchun ochiq\n📍 "
+    },
+    {
+     "type": "bold",
+     "text": "Manzil:"
+    },
+    {
+     "type": "plain",
+     "text": " “Najot Ta’lim”, "
+    },
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "https://yandex.com/maps/org/94800077397?si=d7hvbawzpux0jpb5ynk360x944"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n🔗  "
+    },
+    {
+     "type": "text_link",
+     "text": "Ro'yxatdan o'tish",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSeMBs_AE7kRqwTVy6ifnnlvrlSuSB9jr9CRx9E8mWsLkIT_Eg/viewform?usp=sharing&ouid=116987081343019423147"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "spoiler",
+     "text": "Telegramning keng imkoniyatlaridan boxabar bo'lishni istasangiz, master-klassimizni o'tkazib yubormang :)"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 134,
+   "type": "message",
+   "date": "2026-01-09T19:45:34",
+   "date_unixtime": "1767969934",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "// Hello World function.\nCREATE FUNCTION hello_world()\nRETURNS TEXT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  RETURN 'Hello World!';\nEND;\n$$;\n\n// Add two numbers.\nCREATE FUNCTION add_num(a INT, b INT)\nRETURNS INT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  RETURN a + b;\nEND;\n$$;\n\n//Check grade.\nCREATE FUNCTION check_grade(score INT)\nRETURNS TEXT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  IF score < 0 OR score > 100 THEN\n    RAISE EXCEPTION 'Xato qiymat kiritdingiz';\n  END IF;\n  \n  IF score >= 80 THEN \n    RETURN 'Excellent';\n  ELSE\n    RETURN 'Average';\n  END IF;\nEND;\n$$;\n\n// Get top students;\nCREATE FUNCTION get_top_students(min_score INT)\nRETURNS TABLE(id INT, name TEXT, score INT)\nLANGUAGE plpgsql\nAS $$\nBEGIN \n  RETURN QUERY\n  SELECT \n    s.id, \n    s.full_name, \n    s.score\n  FROM students s\n  WHERE s.score >= min_score;\nEND;\n$$;\n\n// Variable \nCREATE FUNCTION add_numbers(a INT, b INT)\nRETURNS INT\nLANGUAGE plpgsql\nAS $$\nDECLARE\n  result INT;\nBEGIN\n  result := a * b;\n  RETURN result;\nEND\n$$",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "// Hello World function.\nCREATE FUNCTION hello_world()\nRETURNS TEXT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  RETURN 'Hello World!';\nEND;\n$$;\n\n// Add two numbers.\nCREATE FUNCTION add_num(a INT, b INT)\nRETURNS INT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  RETURN a + b;\nEND;\n$$;\n\n//Check grade.\nCREATE FUNCTION check_grade(score INT)\nRETURNS TEXT\nLANGUAGE plpgsql\nAS $$\nBEGIN\n  IF score < 0 OR score > 100 THEN\n    RAISE EXCEPTION 'Xato qiymat kiritdingiz';\n  END IF;\n  \n  IF score >= 80 THEN \n    RETURN 'Excellent';\n  ELSE\n    RETURN 'Average';\n  END IF;\nEND;\n$$;\n\n// Get top students;\nCREATE FUNCTION get_top_students(min_score INT)\nRETURNS TABLE(id INT, name TEXT, score INT)\nLANGUAGE plpgsql\nAS $$\nBEGIN \n  RETURN QUERY\n  SELECT \n    s.id, \n    s.full_name, \n    s.score\n  FROM students s\n  WHERE s.score >= min_score;\nEND;\n$$;\n\n// Variable \nCREATE FUNCTION add_numbers(a INT, b INT)\nRETURNS INT\nLANGUAGE plpgsql\nAS $$\nDECLARE\n  result INT;\nBEGIN\n  result := a * b;\n  RETURN result;\nEND\n$$",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 135,
+   "type": "message",
+   "date": "2026-01-09T20:19:32",
+   "date_unixtime": "1767971972",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "CREATE TABLE transactions (\n    id INT PRIMARY KEY,\n    amount NUMERIC,\n    type TEXT,\n    account_id INT,\n    date DATE\n);\nINSERT INTO transactions (id, amount, type, account_id, date) VALUES\n(1, 400, 'PURCHASE', 4, '2023-12-01'),\n(2, 400, 'PURCHASE', 4, '2023-12-09'),\n(3, 400, 'PURCHASE', 4, '2023-12-11'),\n(4, 400, 'PURCHASE', 4, '2023-12-10'),\n(5, 200, 'PURCHASE', 1, '2023-12-01'),\n(6, 300, 'PURCHASE', 1, '2023-11-29'),\n(7, 300, 'PURCHASE', 1, '2023-11-30'),\n(8, 200, 'PURCHASE', 1, '2023-11-10'),\n(9, 200, 'PURCHASE', 2, '2023-10-30'),\n(10, 200, 'PURCHASE', 2, '2023-10-15'),\n(11, 200, 'PURCHASE', 2, '2023-11-16'),\n(12, 200, 'PURCHASE', 2, '2023-12-10'),\n(13, 200, 'PURCHASE', 2, '2023-12-01'),\n(14, 500, 'PURCHASE', 3, '2023-12-11'),\n(15, 500, 'PURCHASE', 3, '2023-11-27'),\n(16, 500, 'PURCHASE', 3, '2023-11-17'),\n(17, 500, 'PURCHASE', 3, '2023-12-05'),\n(18, 500, 'PURCHASE', 3, '2023-12-07'),\n(19, 500, 'PURCHASE', 3, '2023-12-09'),\n(20, 500, 'PURCHASE', 3, '2023-12-11');\n\n\nCREATE TABLE users (\n    id INT PRIMARY KEY,\n    name TEXT\n);\nINSERT INTO users (id, name) VALUES\n(1, 'Fabiano'),\n(2, 'Johnson'),\n(3, 'Erich'),\n(4, 'Isabella');\n\nCREATE TABLE user_balance (\n    id INT PRIMARY KEY,\n    user_id INT,\n    balance NUMERIC\n);\nINSERT INTO user_balance (id, user_id, balance) VALUES\n(1, 3, 2500),\n(2, 4, 1100),\n(3, 2, 3700),\n(4, 1, 1500);",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "CREATE TABLE transactions (\n    id INT PRIMARY KEY,\n    amount NUMERIC,\n    type TEXT,\n    account_id INT,\n    date DATE\n);\nINSERT INTO transactions (id, amount, type, account_id, date) VALUES\n(1, 400, 'PURCHASE', 4, '2023-12-01'),\n(2, 400, 'PURCHASE', 4, '2023-12-09'),\n(3, 400, 'PURCHASE', 4, '2023-12-11'),\n(4, 400, 'PURCHASE', 4, '2023-12-10'),\n(5, 200, 'PURCHASE', 1, '2023-12-01'),\n(6, 300, 'PURCHASE', 1, '2023-11-29'),\n(7, 300, 'PURCHASE', 1, '2023-11-30'),\n(8, 200, 'PURCHASE', 1, '2023-11-10'),\n(9, 200, 'PURCHASE', 2, '2023-10-30'),\n(10, 200, 'PURCHASE', 2, '2023-10-15'),\n(11, 200, 'PURCHASE', 2, '2023-11-16'),\n(12, 200, 'PURCHASE', 2, '2023-12-10'),\n(13, 200, 'PURCHASE', 2, '2023-12-01'),\n(14, 500, 'PURCHASE', 3, '2023-12-11'),\n(15, 500, 'PURCHASE', 3, '2023-11-27'),\n(16, 500, 'PURCHASE', 3, '2023-11-17'),\n(17, 500, 'PURCHASE', 3, '2023-12-05'),\n(18, 500, 'PURCHASE', 3, '2023-12-07'),\n(19, 500, 'PURCHASE', 3, '2023-12-09'),\n(20, 500, 'PURCHASE', 3, '2023-12-11');\n\n\nCREATE TABLE users (\n    id INT PRIMARY KEY,\n    name TEXT\n);\nINSERT INTO users (id, name) VALUES\n(1, 'Fabiano'),\n(2, 'Johnson'),\n(3, 'Erich'),\n(4, 'Isabella');\n\nCREATE TABLE user_balance (\n    id INT PRIMARY KEY,\n    user_id INT,\n    balance NUMERIC\n);\nINSERT INTO user_balance (id, user_id, balance) VALUES\n(1, 3, 2500),\n(2, 4, 1100),\n(3, 2, 3700),\n(4, 1, 1500);",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 136,
+   "type": "message",
+   "date": "2026-01-09T21:01:53",
+   "date_unixtime": "1767974513",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "\nWITH cte_1 AS (\n  SELECT \n    account_id,\n    SUM(amount)\n  FROM transactions\n  WHERE date >= (\n    SELECT MAX(date) - INTERVAL '30 DAYS' FROM transactions\n  )\n  GROUP BY account_id\n  HAVING SUM(amount) >= 1000\n), cte_2 AS(\n  SELECT * FROM cte_1\n  INNER JOIN user_balance ub ON cte_1.account_id = ub.id\n)\nSELECT\n  c.user_id,\n  u.name,\n  c.account_id,\n  c.balance - c.sum AS r_balance\nFROM cte_2 c\nINNER JOIN users u ON c.user_id = u.id\nWHERE (c.balance - c.sum) >= 0",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "\nWITH cte_1 AS (\n  SELECT \n    account_id,\n    SUM(amount)\n  FROM transactions\n  WHERE date >= (\n    SELECT MAX(date) - INTERVAL '30 DAYS' FROM transactions\n  )\n  GROUP BY account_id\n  HAVING SUM(amount) >= 1000\n), cte_2 AS(\n  SELECT * FROM cte_1\n  INNER JOIN user_balance ub ON cte_1.account_id = ub.id\n)\nSELECT\n  c.user_id,\n  u.name,\n  c.account_id,\n  c.balance - c.sum AS r_balance\nFROM cte_2 c\nINNER JOIN users u ON c.user_id = u.id\nWHERE (c.balance - c.sum) >= 0",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 137,
+   "type": "message",
+   "date": "2026-01-12T19:34:08",
+   "date_unixtime": "1768228448",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "SELECT \n    visited_on,\n    ROUND(SUM(amount) OVER(ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW), 2) AS amount,\n    ROUND(AVG(amount) OVER(ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW), 2) AS average_amount \nFROM (\n    SELECT visited_on, SUM(amount) AS amount FROM Customer GROUP BY visited_on\n)\nORDER BY visited_on\nOFFSET 6",
+     "language": "sql"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "SELECT \n    visited_on,\n    ROUND(SUM(amount) OVER(ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW), 2) AS amount,\n    ROUND(AVG(amount) OVER(ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW), 2) AS average_amount \nFROM (\n    SELECT visited_on, SUM(amount) AS amount FROM Customer GROUP BY visited_on\n)\nORDER BY visited_on\nOFFSET 6",
+     "language": "sql"
+    }
+   ]
+  },
+  {
+   "id": 138,
+   "type": "message",
+   "date": "2026-01-12T19:36:45",
+   "date_unixtime": "1768228605",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://config.office.com/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://config.office.com/"
+    }
+   ]
+  },
+  {
+   "id": 139,
+   "type": "message",
+   "date": "2026-01-12T19:37:11",
+   "date_unixtime": "1768228631",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.microsoft.com/en-us/download/details.aspx?id=49117"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.microsoft.com/en-us/download/details.aspx?id=49117"
+    }
+   ]
+  },
+  {
+   "id": 141,
+   "type": "message",
+   "date": "2026-01-12T19:41:47",
+   "date_unixtime": "1768228907",
+   "edited": "2026-01-12T19:47:50",
+   "edited_unixtime": "1768229270",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "text": "office boshlayabmizmi 😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "office boshlayabmizmi 😁"
+    }
+   ]
+  },
+  {
+   "id": 142,
+   "type": "message",
+   "date": "2026-01-12T19:47:04",
+   "date_unixtime": "1768229224",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "setup.exe /configure Configuration.xml",
+     "language": "powershell"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "setup.exe /configure Configuration.xml",
+     "language": "powershell"
+    }
+   ]
+  },
+  {
+   "id": 143,
+   "type": "message",
+   "date": "2026-01-12T19:48:05",
+   "date_unixtime": "1768229285",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "text": "screen recording ketyaptimii",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "screen recording ketyaptimii"
+    }
+   ]
+  },
+  {
+   "id": 144,
+   "type": "message",
+   "date": "2026-01-12T19:49:35",
+   "date_unixtime": "1768229375",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/setup.exe",
+   "file_name": "setup.exe",
+   "file_size": 7504176,
+   "mime_type": "application/octet-stream",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 145,
+   "type": "message",
+   "date": "2026-01-12T19:49:35",
+   "date_unixtime": "1768229375",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/Configuration.xml",
+   "file_name": "Configuration.xml",
+   "file_size": 1277,
+   "mime_type": "application/xml",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 146,
+   "type": "message",
+   "date": "2026-01-12T19:53:28",
+   "date_unixtime": "1768229608",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 143,
+   "text": "Qilinyabdi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Qilinyabdi"
+    }
+   ]
+  },
+  {
+   "id": 147,
+   "type": "message",
+   "date": "2026-01-12T19:53:44",
+   "date_unixtime": "1768229624",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "reply_to_message_id": 146,
+   "text": "rahmat ustoz",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "rahmat ustoz"
+    }
+   ]
+  },
+  {
+   "id": 148,
+   "type": "message",
+   "date": "2026-01-12T20:13:33",
+   "date_unixtime": "1768230813",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/sale.xlsx",
+   "file_name": "sale.xlsx",
+   "file_size": 10941,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 149,
+   "type": "message",
+   "date": "2026-01-12T20:44:16",
+   "date_unixtime": "1768232656",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.youtube.com/watch?v=hp_UNsu8-xU"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.youtube.com/watch?v=hp_UNsu8-xU"
+    }
+   ]
+  },
+  {
+   "id": 150,
+   "type": "message",
+   "date": "2026-01-13T09:34:35",
+   "date_unixtime": "1768278875",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_size": 4811340,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 22686,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 27,
+   "width": 640,
+   "height": 640,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 151,
+   "type": "message",
+   "date": "2026-01-13T09:34:35",
+   "date_unixtime": "1768278875",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "text": [
+    {
+     "type": "bold",
+     "text": "Qaysi yo’nalishni tanlashga ikkilanyapsizmi?"
+    },
+    "\n\n⚡Unda biz sizni ertaga bo’lib o’tadigan bepul master-klassimizda kutib qolamiz. Ushbu master-klassda siz qaysi soha sizga to‘g‘ri kelishi haqida bilib olishingiz mumkin.\n",
+    {
+     "type": "bold",
+     "text": "\nYo’nalishlar:"
+    },
+    "\n\n",
+    {
+     "type": "italic",
+     "text": "— Sun’iy intellekt — 14:00\n— Videografiya — 17:00\n— Data Analitika — 18:00\n— SMM — 18:30 (faqat 17-yanvarda, Xadra filialida)\n"
+    },
+    "\n🗓 ",
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    ": 14-17-yanvar, chorshanba va shanba kunlari\n👥 ",
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    ": Barcha uchun ochiq\n📍 ",
+    {
+     "type": "bold",
+     "text": "Manzil"
+    },
+    ": Najot Ta’lim, ",
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "http://maps.app.goo.gl/v1GgiWAzPZPgkz5J6"
+    },
+    "\n\n🔗",
+    {
+     "type": "text_link",
+     "text": "Ro’yxatdan o’tish",
+     "href": "https://forms.gle/dsprXEAHAtiQyR5f8"
+    },
+    "\n\n📞 ",
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    " |  ",
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    " ",
+    {
+     "type": "text_link",
+     "text": "|WhatsApp",
+     "href": "http://wa.me/+998878889857"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "bold",
+     "text": "Qaysi yo’nalishni tanlashga ikkilanyapsizmi?"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n⚡Unda biz sizni ertaga bo’lib o’tadigan bepul master-klassimizda kutib qolamiz. Ushbu master-klassda siz qaysi soha sizga to‘g‘ri kelishi haqida bilib olishingiz mumkin.\n"
+    },
+    {
+     "type": "bold",
+     "text": "\nYo’nalishlar:"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "italic",
+     "text": "— Sun’iy intellekt — 14:00\n— Videografiya — 17:00\n— Data Analitika — 18:00\n— SMM — 18:30 (faqat 17-yanvarda, Xadra filialida)\n"
+    },
+    {
+     "type": "plain",
+     "text": "\n🗓 "
+    },
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    {
+     "type": "plain",
+     "text": ": 14-17-yanvar, chorshanba va shanba kunlari\n👥 "
+    },
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    {
+     "type": "plain",
+     "text": ": Barcha uchun ochiq\n📍 "
+    },
+    {
+     "type": "bold",
+     "text": "Manzil"
+    },
+    {
+     "type": "plain",
+     "text": ": Najot Ta’lim, "
+    },
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "http://maps.app.goo.gl/v1GgiWAzPZPgkz5J6"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n🔗"
+    },
+    {
+     "type": "text_link",
+     "text": "Ro’yxatdan o’tish",
+     "href": "https://forms.gle/dsprXEAHAtiQyR5f8"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n📞 "
+    },
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    {
+     "type": "plain",
+     "text": " |  "
+    },
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "text_link",
+     "text": "|WhatsApp",
+     "href": "http://wa.me/+998878889857"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 152,
+   "type": "message",
+   "date": "2026-01-14T19:27:50",
+   "date_unixtime": "1768400870",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/sales.xlsx",
+   "file_name": "sales.xlsx",
+   "file_size": 9530,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 153,
+   "type": "message",
+   "date": "2026-01-14T19:58:25",
+   "date_unixtime": "1768402705",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/table.xlsx",
+   "file_name": "table.xlsx",
+   "file_size": 10216,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 154,
+   "type": "message",
+   "date": "2026-01-14T20:00:03",
+   "date_unixtime": "1768402803",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/sales_1.xlsx",
+   "file_name": "sales_1.xlsx",
+   "file_size": 12569,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 157,
+   "type": "message",
+   "date": "2026-01-14T20:56:40",
+   "date_unixtime": "1768406200",
+   "from": "!!!!!!!",
+   "from_id": "user1020526085",
+   "text": "=FILTER(CHOOSE({1,2},A2:A10,C2:C10),\n(A2:A10=\"Matematika\")+(A2:A10=\"Fizika\"))",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "=FILTER(CHOOSE({1,2},A2:A10,C2:C10),\n(A2:A10=\"Matematika\")+(A2:A10=\"Fizika\"))"
+    }
+   ]
+  },
+  {
+   "id": 158,
+   "type": "message",
+   "date": "2026-01-16T17:47:03",
+   "date_unixtime": "1768567623",
+   "from": "Бек",
+   "from_id": "user675073770",
+   "photo": "photos/photo_8@16-01-2026_17-47-03.jpg",
+   "photo_file_size": 86263,
+   "width": 1004,
+   "height": 1125,
+   "text": "1-savolga tushunmadim",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "1-savolga tushunmadim"
+    }
+   ]
+  },
+  {
+   "id": 159,
+   "type": "message",
+   "date": "2026-01-16T17:48:15",
+   "date_unixtime": "1768567695",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 158,
+   "text": "Exprience columini ko’rsatilgan typelarga bo’lib chiqish kerak",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Exprience columini ko’rsatilgan typelarga bo’lib chiqish kerak"
+    }
+   ]
+  },
+  {
+   "id": 160,
+   "type": "message",
+   "date": "2026-01-16T17:48:59",
+   "date_unixtime": "1768567739",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "Sizda formatini o’zgartirib o’qiganga o’xshaydi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Sizda formatini o’zgartirib o’qiganga o’xshaydi"
+    }
+   ]
+  },
+  {
+   "id": 161,
+   "type": "message",
+   "date": "2026-01-16T17:49:49",
+   "date_unixtime": "1768567789",
+   "from": "Бек",
+   "from_id": "user675073770",
+   "reply_to_message_id": 159,
+   "text": "shu typeni ayta olasizmi\nyokida shartni tuliq] tashab bersangiz ham buladi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "shu typeni ayta olasizmi\nyokida shartni tuliq] tashab bersangiz ham buladi"
+    }
+   ]
+  },
+  {
+   "id": 162,
+   "type": "message",
+   "date": "2026-01-16T17:51:08",
+   "date_unixtime": "1768567868",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 161,
+   "text": "Hozir yulda edim, agar kimdur screen qilib tashab yuboroladimi?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hozir yulda edim, agar kimdur screen qilib tashab yuboroladimi?"
+    }
+   ]
+  },
+  {
+   "id": 163,
+   "type": "message",
+   "date": "2026-01-16T17:58:01",
+   "date_unixtime": "1768568281",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "reply_to_message_id": 162,
+   "text": "xammada shunaqa manimcha",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "xammada shunaqa manimcha"
+    }
+   ]
+  },
+  {
+   "id": 164,
+   "type": "message",
+   "date": "2026-01-16T18:00:31",
+   "date_unixtime": "1768568431",
+   "edited": "2026-01-16T18:50:32",
+   "edited_unixtime": "1768571432",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "text": [
+    {
+     "type": "pre",
+     "text": "1-savol: Experience bo‘yicha daraja\n\n≥ 7 → Expert\n\n≥ 4 → Middle\n\n≥ 2 → Junior\n\n< 2 → Intern\n\n2-savol: Department bo‘yicha Bonus\n\nDepartment bo‘yicha Bonus ustunini VLOOKUP orqali olib keling.\nAgar qiymat topilmasa, 0 chiqsin.\n\n3-savol: Manager aniqlash\n\nHar bir xodim uchun Manager ni INDEX + MATCH yordamida toping.\nVLOOKUP ishlatilmasin.\n\n4-savol: Bonus Eligible sharti\n\nAgar:\n\nDepartment = \"Sales\"\n\nSales ≥ 1000\n\n→ \"Bonus Eligible\",\naks holda → \"No Bonus\"\n\n5-savol: Best Employee sharti\n\nAgar:\n\nDepartment = \"Sales\"\n\nScore ≥ 85\n\nSales ≥ 1200\n\n→ \"Best Employee\",\naks holda → bo‘sh qoldiring",
+     "language": ""
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "1-savol: Experience bo‘yicha daraja\n\n≥ 7 → Expert\n\n≥ 4 → Middle\n\n≥ 2 → Junior\n\n< 2 → Intern\n\n2-savol: Department bo‘yicha Bonus\n\nDepartment bo‘yicha Bonus ustunini VLOOKUP orqali olib keling.\nAgar qiymat topilmasa, 0 chiqsin.\n\n3-savol: Manager aniqlash\n\nHar bir xodim uchun Manager ni INDEX + MATCH yordamida toping.\nVLOOKUP ishlatilmasin.\n\n4-savol: Bonus Eligible sharti\n\nAgar:\n\nDepartment = \"Sales\"\n\nSales ≥ 1000\n\n→ \"Bonus Eligible\",\naks holda → \"No Bonus\"\n\n5-savol: Best Employee sharti\n\nAgar:\n\nDepartment = \"Sales\"\n\nScore ≥ 85\n\nSales ≥ 1200\n\n→ \"Best Employee\",\naks holda → bo‘sh qoldiring",
+     "language": ""
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Saydullayev Oybek",
+        "from_id": "user1596562869",
+        "date": "2026-01-16T18:08:53"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 167,
+   "type": "message",
+   "date": "2026-01-16T19:17:16",
+   "date_unixtime": "1768573036",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "=IFS(G3>=7,\"Expert\",G3>=4,\"Middle\",G3>=2,\"Junior\",G3<2,\"Intern\")",
+     "language": ""
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "=IFS(G3>=7,\"Expert\",G3>=4,\"Middle\",G3>=2,\"Junior\",G3<2,\"Intern\")",
+     "language": ""
+    }
+   ]
+  },
+  {
+   "id": 168,
+   "type": "message",
+   "date": "2026-01-16T20:11:56",
+   "date_unixtime": "1768576316",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/actors_films_action.xlsx",
+   "file_name": "actors_films_action.xlsx",
+   "file_size": 7376,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 169,
+   "type": "message",
+   "date": "2026-01-16T21:06:58",
+   "date_unixtime": "1768579618",
+   "from": "Бек",
+   "from_id": "user675073770",
+   "file": "files/DAX_Formulalar.xlsx",
+   "file_name": "DAX_Formulalar.xlsx",
+   "file_size": 11029,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 170,
+   "type": "message",
+   "date": "2026-01-18T14:06:43",
+   "date_unixtime": "1768727203",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "text": [
+    {
+     "type": "bold",
+     "text": "Aynan siz o'tkazib yubormang..."
+    },
+    "\n\nXabaringiz bor Najot Ta'lim asoschisi ",
+    {
+     "type": "text_link",
+     "text": "Temurbek Adhamov",
+     "href": "https://t.me/temurbek_adhamov"
+    },
+    " o'quvchilar bilan doimiy manfaatli suhbatlar o'tkazib bormoqdalar.\n\nTalabalar bilan bo'lgan suhbatlar 👇\n\n➡️ ",
+    {
+     "type": "text_link",
+     "text": "1 trilliondan oshiq summa chiqib ketayapti",
+     "href": "https://t.me/najottalimtalabalari/6"
+    },
+    "\n\n➡️ ",
+    {
+     "type": "text_link",
+     "text": "Endi kod yozishingiz shart emas",
+     "href": "https://t.me/najottalimtalabalari/7"
+    },
+    "\n\n➡️ ",
+    {
+     "type": "text_link",
+     "text": "IELTS 8 bilan to'xtab qolmayman",
+     "href": "https://t.me/najottalimtalabalari/12"
+    },
+    "\n\n➡️ ",
+    {
+     "type": "text_link",
+     "text": "Bugungidek bo'lishga xaqqingiz yo'q",
+     "href": "https://t.me/najottalimtalabalari/11"
+    },
+    "\n\n",
+    {
+     "type": "italic",
+     "text": "Shunday foydali suhbatlarni o'tkazib yubormaslik uchun yangi "
+    },
+    {
+     "type": "text_link",
+     "text": "Najot Ta'lim talabalari",
+     "href": "https://t.me/najottalimtalabalari"
+    },
+    {
+     "type": "italic",
+     "text": " kanaliga obuna bo'ling va do'stlaringizga ham ulashishni unutmang"
+    },
+    " 😊\n\n",
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    " | ",
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "bold",
+     "text": "Aynan siz o'tkazib yubormang..."
+    },
+    {
+     "type": "plain",
+     "text": "\n\nXabaringiz bor Najot Ta'lim asoschisi "
+    },
+    {
+     "type": "text_link",
+     "text": "Temurbek Adhamov",
+     "href": "https://t.me/temurbek_adhamov"
+    },
+    {
+     "type": "plain",
+     "text": " o'quvchilar bilan doimiy manfaatli suhbatlar o'tkazib bormoqdalar.\n\nTalabalar bilan bo'lgan suhbatlar 👇\n\n➡️ "
+    },
+    {
+     "type": "text_link",
+     "text": "1 trilliondan oshiq summa chiqib ketayapti",
+     "href": "https://t.me/najottalimtalabalari/6"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n➡️ "
+    },
+    {
+     "type": "text_link",
+     "text": "Endi kod yozishingiz shart emas",
+     "href": "https://t.me/najottalimtalabalari/7"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n➡️ "
+    },
+    {
+     "type": "text_link",
+     "text": "IELTS 8 bilan to'xtab qolmayman",
+     "href": "https://t.me/najottalimtalabalari/12"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n➡️ "
+    },
+    {
+     "type": "text_link",
+     "text": "Bugungidek bo'lishga xaqqingiz yo'q",
+     "href": "https://t.me/najottalimtalabalari/11"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "italic",
+     "text": "Shunday foydali suhbatlarni o'tkazib yubormaslik uchun yangi "
+    },
+    {
+     "type": "text_link",
+     "text": "Najot Ta'lim talabalari",
+     "href": "https://t.me/najottalimtalabalari"
+    },
+    {
+     "type": "italic",
+     "text": " kanaliga obuna bo'ling va do'stlaringizga ham ulashishni unutmang"
+    },
+    {
+     "type": "plain",
+     "text": " 😊\n\n"
+    },
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    {
+     "type": "plain",
+     "text": " | "
+    },
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 171,
+   "type": "message",
+   "date": "2026-01-18T19:04:59",
+   "date_unixtime": "1768745099",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "Assalomu aleykum hurmadli o'quvchilar, 19.01.2026 sana kuni 19:00 va 21:00 oralig'ida Excel moduli bo'yicha imtihon bo'lib o'tadi hamma offline qatnashishi shart.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu aleykum hurmadli o'quvchilar, 19.01.2026 sana kuni 19:00 va 21:00 oralig'ida Excel moduli bo'yicha imtihon bo'lib o'tadi hamma offline qatnashishi shart."
+    }
+   ]
+  },
+  {
+   "id": 172,
+   "type": "message",
+   "date": "2026-01-18T19:12:32",
+   "date_unixtime": "1768745552",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "reply_to_message_id": 171,
+   "text": "Assalomu Aleykum ustoz, uje tugatdikmi excelni",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu Aleykum ustoz, uje tugatdikmi excelni"
+    }
+   ]
+  },
+  {
+   "id": 173,
+   "type": "message",
+   "date": "2026-01-18T19:17:36",
+   "date_unixtime": "1768745856",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 172,
+   "text": "Volaykum assalom, xa tugatdik elementarni bo’lgan mavzularini o’rniga sqldan o’tgan edik shuning uchun tez tugadi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Volaykum assalom, xa tugatdik elementarni bo’lgan mavzularini o’rniga sqldan o’tgan edik shuning uchun tez tugadi"
+    }
+   ]
+  },
+  {
+   "id": 174,
+   "type": "message",
+   "date": "2026-01-18T19:42:49",
+   "date_unixtime": "1768747369",
+   "from": "!!!!!!!",
+   "from_id": "user1020526085",
+   "reply_to_message_id": 173,
+   "text": "assolumu alaykum ustoz. vazifani shartini tashlab bering . manda ochmayapti",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "assolumu alaykum ustoz. vazifani shartini tashlab bering . manda ochmayapti"
+    }
+   ]
+  },
+  {
+   "id": 175,
+   "type": "message",
+   "date": "2026-01-18T19:45:55",
+   "date_unixtime": "1768747555",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "Vazifani sharti berilgan file bo’yicha bitta report yasash kerak otgan darada qilib korsarganim kabi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Vazifani sharti berilgan file bo’yicha bitta report yasash kerak otgan darada qilib korsarganim kabi"
+    }
+   ]
+  },
+  {
+   "id": 176,
+   "type": "message",
+   "date": "2026-01-18T19:46:10",
+   "date_unixtime": "1768747570",
+   "from": "!!!!!!!",
+   "from_id": "user1020526085",
+   "text": "xop",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "xop"
+    }
+   ]
+  },
+  {
+   "id": 177,
+   "type": "message",
+   "date": "2026-01-19T19:00:31",
+   "date_unixtime": "1768831231",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/Chocolate  Sales.xlsx",
+   "file_name": "Chocolate  Sales.xlsx",
+   "file_size": 132315,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 178,
+   "type": "message",
+   "date": "2026-01-20T15:55:06",
+   "date_unixtime": "1768906506",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "photo": "photos/photo_9@20-01-2026_15-55-06.jpg",
+   "photo_file_size": 108983,
+   "width": 1024,
+   "height": 1280,
+   "text": [
+    {
+     "type": "bold",
+     "text": "Start loyihasida \"Pitch Day\"🚀"
+    },
+    "\n\nNajot Ta'limning",
+    {
+     "type": "text_link",
+     "text": " Start loyihasi",
+     "href": "https://t.me/najottalim/8206"
+    },
+    " guruhlarga ajratilib, mentorlar bilan o‘z startaplarini qurayotganini aytib o‘tgan edik.\n\nO'tgan 2 oy ichida ishtirokchilarimizning startap loyihalari",
+    {
+     "type": "bold",
+     "text": " MVP bosqichida"
+    },
+    " taqdimot qilishga tayyor holatga keltirildi.\n\nAgar siz ham startap loyihalariga qiziqsangiz sizni Najot Ta’limda bo'lib o'tadigan taqdimot kuniga taklif qilamiz. \n\n🗓 ",
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    ": 24-yanvar, soat ",
+    {
+     "type": "bold",
+     "text": "13:30"
+    },
+    " shanba kuni\n👥 ",
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    ": Barcha uchun ochiq\n📍 ",
+    {
+     "type": "bold",
+     "text": "Manzil"
+    },
+    ": Najot Ta’lim, ",
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "http://maps.app.goo.gl/v1GgiWAzPZPgkz5J6"
+    },
+    "\n\n",
+    {
+     "type": "italic",
+     "text": "P.s. Dasturchi bo'lgan va bo'lmagan barcha soha insonlariga kelish tavsiya etiladi."
+    },
+    "\n\n📞 ",
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    " |  ",
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    " ",
+    {
+     "type": "text_link",
+     "text": "|WhatsApp",
+     "href": "http://wa.me/+998878889857"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "bold",
+     "text": "Start loyihasida \"Pitch Day\"🚀"
+    },
+    {
+     "type": "plain",
+     "text": "\n\nNajot Ta'limning"
+    },
+    {
+     "type": "text_link",
+     "text": " Start loyihasi",
+     "href": "https://t.me/najottalim/8206"
+    },
+    {
+     "type": "plain",
+     "text": " guruhlarga ajratilib, mentorlar bilan o‘z startaplarini qurayotganini aytib o‘tgan edik.\n\nO'tgan 2 oy ichida ishtirokchilarimizning startap loyihalari"
+    },
+    {
+     "type": "bold",
+     "text": " MVP bosqichida"
+    },
+    {
+     "type": "plain",
+     "text": " taqdimot qilishga tayyor holatga keltirildi.\n\nAgar siz ham startap loyihalariga qiziqsangiz sizni Najot Ta’limda bo'lib o'tadigan taqdimot kuniga taklif qilamiz. \n\n🗓 "
+    },
+    {
+     "type": "bold",
+     "text": "Sana"
+    },
+    {
+     "type": "plain",
+     "text": ": 24-yanvar, soat "
+    },
+    {
+     "type": "bold",
+     "text": "13:30"
+    },
+    {
+     "type": "plain",
+     "text": " shanba kuni\n👥 "
+    },
+    {
+     "type": "bold",
+     "text": "Kim uchun"
+    },
+    {
+     "type": "plain",
+     "text": ": Barcha uchun ochiq\n📍 "
+    },
+    {
+     "type": "bold",
+     "text": "Manzil"
+    },
+    {
+     "type": "plain",
+     "text": ": Najot Ta’lim, "
+    },
+    {
+     "type": "text_link",
+     "text": "Chilonzor filiali",
+     "href": "http://maps.app.goo.gl/v1GgiWAzPZPgkz5J6"
+    },
+    {
+     "type": "plain",
+     "text": "\n\n"
+    },
+    {
+     "type": "italic",
+     "text": "P.s. Dasturchi bo'lgan va bo'lmagan barcha soha insonlariga kelish tavsiya etiladi."
+    },
+    {
+     "type": "plain",
+     "text": "\n\n📞 "
+    },
+    {
+     "type": "phone",
+     "text": "78-888-9-888"
+    },
+    {
+     "type": "plain",
+     "text": " |  "
+    },
+    {
+     "type": "link",
+     "text": "najottalim.uz"
+    },
+    {
+     "type": "plain",
+     "text": " "
+    },
+    {
+     "type": "text_link",
+     "text": "|WhatsApp",
+     "href": "http://wa.me/+998878889857"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 179,
+   "type": "message",
+   "date": "2026-01-21T15:15:33",
+   "date_unixtime": "1768990533",
+   "edited": "2026-01-21T15:15:52",
+   "edited_unixtime": "1768990552",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/shart1.txt",
+   "file_name": "shart1.txt",
+   "file_size": 170,
+   "mime_type": "text/plain",
+   "text": "11 darsimizning sharti tizimga yuklanmay qolgan ekan guruhga tashab quyaman. Excel modulining uy ishini bajarmaganlar bugungi darsgacha bajarishlari shart!!!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "11 darsimizning sharti tizimga yuklanmay qolgan ekan guruhga tashab quyaman. Excel modulining uy ishini bajarmaganlar bugungi darsgacha bajarishlari shart!!!"
+    }
+   ]
+  },
+  {
+   "id": 180,
+   "type": "message",
+   "date": "2026-01-21T18:02:02",
+   "date_unixtime": "1769000522",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "text": "Assalomu Aleykum ustoz, univerda ushlanib qoldim, kechga qolib boraman",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu Aleykum ustoz, univerda ushlanib qoldim, kechga qolib boraman"
+    }
+   ]
+  },
+  {
+   "id": 181,
+   "type": "message",
+   "date": "2026-01-21T18:08:05",
+   "date_unixtime": "1769000885",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "Axaa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Axaa"
+    }
+   ]
+  },
+  {
+   "id": 182,
+   "type": "message",
+   "date": "2026-01-21T19:08:32",
+   "date_unixtime": "1769004512",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://www.python.org/"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://www.python.org/"
+    }
+   ]
+  },
+  {
+   "id": 183,
+   "type": "service",
+   "date": "2026-01-21T22:09:00",
+   "date_unixtime": "1769015340",
+   "actor": "Abbos",
+   "actor_id": "user7013545031",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 184,
+   "type": "message",
+   "date": "2026-01-22T14:31:19",
+   "date_unixtime": "1769074279",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "python 1-lesson.mp4",
+   "file_size": 374696693,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 10890,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 5822,
+   "width": 1280,
+   "height": 720,
+   "text": "Hali tizimga kira olmaganlar uchun o'tgan darsning vedio yozuvi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hali tizimga kira olmaganlar uchun o'tgan darsning vedio yozuvi."
+    }
+   ]
+  },
+  {
+   "id": 185,
+   "type": "message",
+   "date": "2026-01-22T14:31:19",
+   "date_unixtime": "1769074279",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/Home Work.txt",
+   "file_name": "Home Work.txt",
+   "file_size": 1119,
+   "mime_type": "text/plain",
+   "text": "Uyga vazifa",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Uyga vazifa"
+    }
+   ]
+  },
+  {
+   "id": 186,
+   "type": "message",
+   "date": "2026-01-22T14:42:14",
+   "date_unixtime": "1769074934",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "file": "files/Home_Work_Corrected-1.docx",
+   "file_name": "Home_Work_Corrected-1.docx",
+   "file_size": 37221,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 187,
+   "type": "service",
+   "date": "2026-01-22T15:05:02",
+   "date_unixtime": "1769076302",
+   "actor": "Saidkamol Xolmirzayev",
+   "actor_id": "user8110186847",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 188,
+   "type": "service",
+   "date": "2026-01-22T15:11:45",
+   "date_unixtime": "1769076705",
+   "actor": "Мирзохид",
+   "actor_id": "user1307377324",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 189,
+   "type": "service",
+   "date": "2026-01-22T15:13:16",
+   "date_unixtime": "1769076796",
+   "actor": "Yusufjon Tolibjonov",
+   "actor_id": "user2057771562",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 190,
+   "type": "service",
+   "date": "2026-01-22T17:01:37",
+   "date_unixtime": "1769083297",
+   "actor": "HOSILBEK",
+   "actor_id": "user7450214136",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 191,
+   "type": "service",
+   "date": "2026-01-22T19:10:41",
+   "date_unixtime": "1769091041",
+   "actor": "Собиров",
+   "actor_id": "user8163822575",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 192,
+   "type": "message",
+   "date": "2026-01-23T18:24:11",
+   "date_unixtime": "1769174651",
+   "from": "HOSILBEK",
+   "from_id": "user7450214136",
+   "text": "Assalomu aleykum ustoz \n\nMen Hosilbek Xotamov.\nDarsga 10 daqiqa kech qolishim mumkin.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu aleykum ustoz \n\nMen Hosilbek Xotamov.\nDarsga 10 daqiqa kech qolishim mumkin."
+    }
+   ]
+  },
+  {
+   "id": 193,
+   "type": "message",
+   "date": "2026-01-23T20:24:29",
+   "date_unixtime": "1769181869",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "ball = float(input('Balingizni kiriting: '))\ndavomat = float(input('Davamot: '))\n\nif ball >= 90 and davomat >= 90:\n     print('grand')\nelif ball >= 60 and davomat >= 75:\n     print(\"o'tdi\")\nelif ball >= 60 and davomat < 75:\n     print('Qayta topshirish')\nelse:\n     print('Yiqildi')",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "ball = float(input('Balingizni kiriting: '))\ndavomat = float(input('Davamot: '))\n\nif ball >= 90 and davomat >= 90:\n     print('grand')\nelif ball >= 60 and davomat >= 75:\n     print(\"o'tdi\")\nelif ball >= 60 and davomat < 75:\n     print('Qayta topshirish')\nelse:\n     print('Yiqildi')",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 194,
+   "type": "message",
+   "date": "2026-01-23T22:58:03",
+   "date_unixtime": "1769191083",
+   "from": "Najot Ta'lim Bot",
+   "from_id": "user8455240338",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_size": 6628911,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 17583,
+   "media_type": "video_message",
+   "mime_type": "video/mp4",
+   "duration_seconds": 37,
+   "width": 640,
+   "height": 640,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 195,
+   "type": "message",
+   "date": "2026-01-24T15:02:07",
+   "date_unixtime": "1769248927",
+   "from": "Yusufjon Tolibjonov",
+   "from_id": "user2057771562",
+   "text": "Assalomu alaykum hammaga, guruhga yangi qo'shilgan o'quvchiman. Hali ERP tizimida yo'qman. Uyga vazifalarni shu guruhga yuborishning iloji bormi. Yordamchi ustozning telegrami bo'lsa ham yaxshi bo'lar edi.\nOldindan rahmat!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu alaykum hammaga, guruhga yangi qo'shilgan o'quvchiman. Hali ERP tizimida yo'qman. Uyga vazifalarni shu guruhga yuborishning iloji bormi. Yordamchi ustozning telegrami bo'lsa ham yaxshi bo'lar edi.\nOldindan rahmat!"
+    }
+   ]
+  },
+  {
+   "id": 196,
+   "type": "message",
+   "date": "2026-01-24T15:57:54",
+   "date_unixtime": "1769252274",
+   "from": "Dilrabo Usubjonova",
+   "from_id": "user1413700173",
+   "reply_to_message_id": 195,
+   "text": "Vaalaykum assalom.\nMen yordamchi ustozman. Menga yuborib tursez bo'ladi, guruhga tashamen.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Vaalaykum assalom.\nMen yordamchi ustozman. Menga yuborib tursez bo'ladi, guruhga tashamen."
+    }
+   ]
+  },
+  {
+   "id": 197,
+   "type": "message",
+   "date": "2026-01-24T15:59:22",
+   "date_unixtime": "1769252362",
+   "from": "Yusufjon Tolibjonov",
+   "from_id": "user2057771562",
+   "reply_to_message_id": 196,
+   "text": "Hop, uyga vazifa savollarini yubora olasizmi oxirgi 2 ta mavzuni",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Hop, uyga vazifa savollarini yubora olasizmi oxirgi 2 ta mavzuni"
+    }
+   ]
+  },
+  {
+   "id": 198,
+   "type": "message",
+   "date": "2026-01-24T16:00:25",
+   "date_unixtime": "1769252425",
+   "edited": "2026-01-24T16:07:23",
+   "edited_unixtime": "1769252843",
+   "from": "Dilrabo Usubjonova",
+   "from_id": "user1413700173",
+   "reply_to_message_id": 197,
+   "text": "Yuborib qo'yaman birozdan keyin",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yuborib qo'yaman birozdan keyin"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🤝",
+      "recent": [
+       {
+        "from": "Yusufjon Tolibjonov",
+        "from_id": "user2057771562",
+        "date": "2026-01-24T16:07:23"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 199,
+   "type": "message",
+   "date": "2026-01-24T16:25:07",
+   "date_unixtime": "1769253907",
+   "from": "Dilrabo Usubjonova",
+   "from_id": "user1413700173",
+   "reply_to_message_id": 197,
+   "file": "files/6889866b-00c8-4c85-bb5c-d8214aef95dd.docx",
+   "file_name": "6889866b-00c8-4c85-bb5c-d8214aef95dd.docx",
+   "file_size": 14558,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 200,
+   "type": "message",
+   "date": "2026-01-24T16:25:07",
+   "date_unixtime": "1769253907",
+   "from": "Dilrabo Usubjonova",
+   "from_id": "user1413700173",
+   "reply_to_message_id": 197,
+   "file": "files/lesson-1.pdf",
+   "file_name": "lesson-1.pdf",
+   "file_size": 43250,
+   "mime_type": "application/pdf",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 201,
+   "type": "message",
+   "date": "2026-01-25T01:24:23",
+   "date_unixtime": "1769286263",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "text": "Assalomu Aleykum, uyga vazifani kim qildi, o'tkan narsalaramiz bilan qilsa bo'larmikan",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Assalomu Aleykum, uyga vazifani kim qildi, o'tkan narsalaramiz bilan qilsa bo'larmikan"
+    }
+   ]
+  },
+  {
+   "id": 202,
+   "type": "message",
+   "date": "2026-01-25T02:21:45",
+   "date_unixtime": "1769289705",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 201,
+   "text": "WHILE va IF orqali ishlasangiz bo’ladi",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "WHILE va IF orqali ishlasangiz bo’ladi"
+    }
+   ]
+  },
+  {
+   "id": 204,
+   "type": "message",
+   "date": "2026-01-26T16:49:55",
+   "date_unixtime": "1769428195",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "guruhga uy ishlarini tashamang",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "guruhga uy ishlarini tashamang"
+    }
+   ]
+  },
+  {
+   "id": 205,
+   "type": "message",
+   "date": "2026-01-26T18:34:42",
+   "date_unixtime": "1769434482",
+   "edited": "2026-01-26T18:39:09",
+   "edited_unixtime": "1769434749",
+   "from": "Dilrabo Usubjonova",
+   "from_id": "user1413700173",
+   "photo": "photos/photo_10@26-01-2026_18-34-42.jpg",
+   "photo_file_size": 73469,
+   "width": 846,
+   "height": 417,
+   "text": "Ustoz bergan uyga vazifa 100 foiz to'g'ri bajarilgan bo'lsa, maximum 94 bal qo'yiladi.\nUndan yuqori bal olish uchun qo'shimcha puzzlelar yechish, darsda ko'rilmagan mavzularga izlanish qilib qo'llash kerak",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ustoz bergan uyga vazifa 100 foiz to'g'ri bajarilgan bo'lsa, maximum 94 bal qo'yiladi.\nUndan yuqori bal olish uchun qo'shimcha puzzlelar yechish, darsda ko'rilmagan mavzularga izlanish qilib qo'llash kerak"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 2,
+      "emoji": "⚡",
+      "recent": [
+       {
+        "from": "Мухаммадазиз ",
+        "from_id": "user5387896001",
+        "date": "2026-01-26T18:49:51"
+       },
+       {
+        "from": "Adhambek Otaboyev",
+        "from_id": "user6977462815",
+        "date": "2026-01-26T18:39:09"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 206,
+   "type": "service",
+   "date": "2026-01-26T19:37:23",
+   "date_unixtime": "1769438243",
+   "actor": "Flex ",
+   "actor_id": "user6674035557",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 207,
+   "type": "message",
+   "date": "2026-01-26T20:34:17",
+   "date_unixtime": "1769441657",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+     "language": ""
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+     "language": ""
+    }
+   ]
+  },
+  {
+   "id": 208,
+   "type": "message",
+   "date": "2026-01-26T20:34:50",
+   "date_unixtime": "1769441690",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "\n##### LIST ######\nfruits = ['olma', 'anor', 'nok', 'uzum']\n\n# fruits.append('uzum')\n\n# fruits.remove('uzum')\n# fruits.remove('anor')\n\n## INDEX ##\n# print(fruits[0])\n# fruits[2] = 'shaftoli'\n# print(fruits)\n\n# print(fruits.pop(2))\n# print(fruits.remove('anor'))\n\n# print(fruits)\n\na = [1, 2]\nb = [3, 4, 4, 5]\n[1, 2, [3, 4, 4, 5]]\na.append(b)\na.extend(b)\n[1, 2, 3, 4, 4, 5]\n\n# print(a)\n\n# bozor = [['olma', 'anor'], ['sabzi', 'kartoshka', 'piyoz']]\n# print(bozor[1][1])\n\n\n## copy ##\n# a = [1, 2]\n# b = a.copy()\n# b.append(5)\n# print(a)\n\n## iteration ##\nnums = [1, 2, 3, 4, 5]\nfor i in nums:\n     print(i**2)",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "\n##### LIST ######\nfruits = ['olma', 'anor', 'nok', 'uzum']\n\n# fruits.append('uzum')\n\n# fruits.remove('uzum')\n# fruits.remove('anor')\n\n## INDEX ##\n# print(fruits[0])\n# fruits[2] = 'shaftoli'\n# print(fruits)\n\n# print(fruits.pop(2))\n# print(fruits.remove('anor'))\n\n# print(fruits)\n\na = [1, 2]\nb = [3, 4, 4, 5]\n[1, 2, [3, 4, 4, 5]]\na.append(b)\na.extend(b)\n[1, 2, 3, 4, 4, 5]\n\n# print(a)\n\n# bozor = [['olma', 'anor'], ['sabzi', 'kartoshka', 'piyoz']]\n# print(bozor[1][1])\n\n\n## copy ##\n# a = [1, 2]\n# b = a.copy()\n# b.append(5)\n# print(a)\n\n## iteration ##\nnums = [1, 2, 3, 4, 5]\nfor i in nums:\n     print(i**2)",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 209,
+   "type": "service",
+   "date": "2026-01-26T20:34:53",
+   "date_unixtime": "1769441693",
+   "actor": "HOSILBEK",
+   "actor_id": "user7450214136",
+   "action": "join_group_by_link",
+   "inviter": "Group",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 210,
+   "type": "message",
+   "date": "2026-01-26T21:05:44",
+   "date_unixtime": "1769443544",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "N11 Python 3-dars.mp4",
+   "file_size": 297537315,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 9780,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 5141,
+   "width": 1280,
+   "height": 720,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 211,
+   "type": "message",
+   "date": "2026-01-26T21:06:35",
+   "date_unixtime": "1769443595",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "files/home_work.docx",
+   "file_name": "home_work.docx",
+   "file_size": 15191,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 212,
+   "type": "message",
+   "date": "2026-01-27T15:09:40",
+   "date_unixtime": "1769508580",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "photo": "photos/photo_11@27-01-2026_15-09-40.jpg",
+   "photo_file_size": 20985,
+   "width": 1280,
+   "height": 182,
+   "text": "",
+   "text_entities": []
+  },
+  {
+   "id": 213,
+   "type": "message",
+   "date": "2026-01-27T15:09:49",
+   "date_unixtime": "1769508589",
+   "from": "Adhambek Otaboyev",
+   "from_id": "user6977462815",
+   "text": "dars yuklanmay qoliptiyov",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "dars yuklanmay qoliptiyov"
+    }
+   ]
+  },
+  {
+   "id": 214,
+   "type": "message",
+   "date": "2026-01-27T15:29:27",
+   "date_unixtime": "1769509767",
+   "edited": "2026-01-27T15:41:09",
+   "edited_unixtime": "1769510469",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "Yuklab qo'ydim",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yuklab qo'ydim"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "⚡",
+      "recent": [
+       {
+        "from": "Adhambek Otaboyev",
+        "from_id": "user6977462815",
+        "date": "2026-01-27T15:41:09"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 215,
+   "type": "message",
+   "date": "2026-01-28T11:20:00",
+   "date_unixtime": "1769581200",
+   "edited": "2026-01-28T11:21:53",
+   "edited_unixtime": "1769581313",
+   "from": "Мухаммадазиз ",
+   "from_id": "user5387896001",
+   "text": "Ассалому Алайкум!",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Ассалому Алайкум!"
+    }
+   ]
+  },
+  {
+   "id": 216,
+   "type": "message",
+   "date": "2026-01-28T11:21:35",
+   "date_unixtime": "1769581295",
+   "from": "Мухаммадазиз ",
+   "from_id": "user5387896001",
+   "photo": "photos/photo_12@28-01-2026_11-21-35.jpg",
+   "photo_file_size": 9988,
+   "width": 663,
+   "height": 205,
+   "text": "Устоз бу саволда йонма-йон келган дубликатларни олиб ташланг дийилган натижа [1,2,3,1] колиши керакми шарт буйича ?",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Устоз бу саволда йонма-йон келган дубликатларни олиб ташланг дийилган натижа [1,2,3,1] колиши керакми шарт буйича ?"
+    }
+   ]
+  },
+  {
+   "id": 217,
+   "type": "message",
+   "date": "2026-01-28T11:37:33",
+   "date_unixtime": "1769582253",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "reply_to_message_id": 216,
+   "text": "ha shunaqa bo'lishi kerak edi: ozgina xatolik ketibdi [1, 2, 3, 1] chiqishi kerak edi.",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "ha shunaqa bo'lishi kerak edi: ozgina xatolik ketibdi [1, 2, 3, 1] chiqishi kerak edi."
+    }
+   ]
+  },
+  {
+   "id": 218,
+   "type": "message",
+   "date": "2026-01-28T11:55:17",
+   "date_unixtime": "1769583317",
+   "from": "Мухаммадазиз ",
+   "from_id": "user5387896001",
+   "reply_to_message_id": 217,
+   "text": "хуп рахмат",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "хуп рахмат"
+    }
+   ]
+  },
+  {
+   "id": 220,
+   "type": "message",
+   "date": "2026-01-28T18:02:16",
+   "date_unixtime": "1769605336",
+   "from": "!!!!!!!",
+   "from_id": "user1020526085",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://youtu.be/2SrKetbbdKc?si=m9iewWITD7-zuysh"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://youtu.be/2SrKetbbdKc?si=m9iewWITD7-zuysh"
+    }
+   ]
+  },
+  {
+   "id": 221,
+   "type": "message",
+   "date": "2026-01-28T19:44:07",
+   "date_unixtime": "1769611447",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "## TUPLE ##\n\n# 1-sul\na = (1, 2, 3, 3)\n# print(type(a))\n\n# 2-usul\n# a = tuple(1, 2, 3 ,4)\n\n\n# a = (4)\n# print(type(a))\n\n# colors = (\"qizil\", \"yashil\", \"ko‘k\")\n\n# print(colors)\n\n# index\n# print(colors[2])\n\n# colors[1] = 'oq'\n\n# for i in colors:\n#      print(i)\n\n# q = colors[0]\n# y = colors[1]\n# print(y)\n\n# unpucking\n# q, y, k = colors\n\n# # print(y)\n\n# a = (1, [3, 4], 5)\n# a[1][1] = 5\n\n# print(a)",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "## TUPLE ##\n\n# 1-sul\na = (1, 2, 3, 3)\n# print(type(a))\n\n# 2-usul\n# a = tuple(1, 2, 3 ,4)\n\n\n# a = (4)\n# print(type(a))\n\n# colors = (\"qizil\", \"yashil\", \"ko‘k\")\n\n# print(colors)\n\n# index\n# print(colors[2])\n\n# colors[1] = 'oq'\n\n# for i in colors:\n#      print(i)\n\n# q = colors[0]\n# y = colors[1]\n# print(y)\n\n# unpucking\n# q, y, k = colors\n\n# # print(y)\n\n# a = (1, [3, 4], 5)\n# a[1][1] = 5\n\n# print(a)",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 222,
+   "type": "message",
+   "date": "2026-01-28T19:45:24",
+   "date_unixtime": "1769611524",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# tuple\nt = (1, 2, 3)\nprint(t)\n\n# tuple\nx = (5,)\nprint(type(x))   # tuple\n\n# int\nx = (5)\nprint(type(x))   # int\n\n# Tuple elementlariga murojaat qilish\ncolors = (\"qizil\", \"yashil\", \"ko‘k\")\nprint(colors[0])    # qizil\nprint(colors[-1])   # ko‘k\n\n# Loop bilan tuple\nfruits = (\"olma\", \"banan\", \"anor\")\nfor f in fruits:\n    print(f)\n\n# Tuple unpacking\nperson = (\"Ali\", 25, \"Toshkent\")\nname, age, city = person\nprint(name)\nprint(age)\nprint(city)\n\n# Tuple ichida list\ndata = (1, [2, 3], 4)\n\ndata[1].append(5)\nprint(data)\n\n# Tuple va list o‘rtasida o‘tish\nt = (1, 2, 3)\nl = list(t)\n\n# Indexni bilish\na = (4, 1, 7, 3)\nprint(a.index(7))",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# tuple\nt = (1, 2, 3)\nprint(t)\n\n# tuple\nx = (5,)\nprint(type(x))   # tuple\n\n# int\nx = (5)\nprint(type(x))   # int\n\n# Tuple elementlariga murojaat qilish\ncolors = (\"qizil\", \"yashil\", \"ko‘k\")\nprint(colors[0])    # qizil\nprint(colors[-1])   # ko‘k\n\n# Loop bilan tuple\nfruits = (\"olma\", \"banan\", \"anor\")\nfor f in fruits:\n    print(f)\n\n# Tuple unpacking\nperson = (\"Ali\", 25, \"Toshkent\")\nname, age, city = person\nprint(name)\nprint(age)\nprint(city)\n\n# Tuple ichida list\ndata = (1, [2, 3], 4)\n\ndata[1].append(5)\nprint(data)\n\n# Tuple va list o‘rtasida o‘tish\nt = (1, 2, 3)\nl = list(t)\n\n# Indexni bilish\na = (4, 1, 7, 3)\nprint(a.index(7))",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 223,
+   "type": "message",
+   "date": "2026-01-28T19:58:11",
+   "date_unixtime": "1769612291",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "t = (10, 20, 30, 40, 50)",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "t = (10, 20, 30, 40, 50)"
+    }
+   ]
+  },
+  {
+   "id": 224,
+   "type": "message",
+   "date": "2026-01-28T20:35:01",
+   "date_unixtime": "1769614501",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Set yaratish usullari\ns = {1, 2, 3, 3, 2}\ns = set([1, 2, 2, 3])\nprint(s)\n\n# Tartibi yo‘q (index ishlamaydi)\ns = {10, 20, 30}\n# s[0] \n\n# Setni ichiga o'zgarmas qiymatlar bo'ladi\n{1, \"a\", (1, 2)}  # ✓ \n{1, [2, 3]}       # ✕\n\n# Element qo‘shish\ns = {1, 2, 3}\ns.add(4)\nprint(s)\n\n# Element o‘chirish\ns.remove(2)     # yo‘q bo‘lsa xato beradi\ns.discard(10)   # yo‘q bo‘lsa xato bermaydi\n\n# Update\nb = {2, 3, 4, 4}\na = {3, 55 ,6, 6}\nb.update(a)\n\n# Loop\ns = {10, 20, 30}\nfor x in s:\n    print(x)\n\n# Union\na = {1, 2, 3}\nb = {3, 4, 5}\nprint(a | b)\n# yoki\nprint(a.union(b))\n\n# Intersection\nprint(a & b)\n# yoki\nprint(a.intersection(b))\n\n# Difference\nprint(a - b)",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Set yaratish usullari\ns = {1, 2, 3, 3, 2}\ns = set([1, 2, 2, 3])\nprint(s)\n\n# Tartibi yo‘q (index ishlamaydi)\ns = {10, 20, 30}\n# s[0] \n\n# Setni ichiga o'zgarmas qiymatlar bo'ladi\n{1, \"a\", (1, 2)}  # ✓ \n{1, [2, 3]}       # ✕\n\n# Element qo‘shish\ns = {1, 2, 3}\ns.add(4)\nprint(s)\n\n# Element o‘chirish\ns.remove(2)     # yo‘q bo‘lsa xato beradi\ns.discard(10)   # yo‘q bo‘lsa xato bermaydi\n\n# Update\nb = {2, 3, 4, 4}\na = {3, 55 ,6, 6}\nb.update(a)\n\n# Loop\ns = {10, 20, 30}\nfor x in s:\n    print(x)\n\n# Union\na = {1, 2, 3}\nb = {3, 4, 5}\nprint(a | b)\n# yoki\nprint(a.union(b))\n\n# Intersection\nprint(a & b)\n# yoki\nprint(a.intersection(b))\n\n# Difference\nprint(a - b)",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 225,
+   "type": "message",
+   "date": "2026-01-28T20:55:41",
+   "date_unixtime": "1769615741",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Faqat bitta marta uchraganlar\nnums = [1, 2, 2, 3, 3, 4, 5, 5, 6]\n# natija {1, 4, 6}",
+     "language": ""
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Faqat bitta marta uchraganlar\nnums = [1, 2, 2, 3, 3, 4, 5, 5, 6]\n# natija {1, 4, 6}",
+     "language": ""
+    }
+   ]
+  },
+  {
+   "id": 226,
+   "type": "message",
+   "date": "2026-01-28T21:37:08",
+   "date_unixtime": "1769618228",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "text": [
+    {
+     "type": "link",
+     "text": "https://t.me/+WABon5YxxgI4Yzky"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "link",
+     "text": "https://t.me/+WABon5YxxgI4Yzky"
+    }
+   ]
+  },
+  {
+   "id": 227,
+   "type": "message",
+   "date": "2026-01-28T21:37:27",
+   "date_unixtime": "1769618247",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "reply_to_message_id": 226,
+   "text": "Aloxida gruppa ozimizga",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Aloxida gruppa ozimizga"
+    }
+   ]
+  },
+  {
+   "id": 228,
+   "type": "message",
+   "date": "2026-01-30T13:09:03",
+   "date_unixtime": "1769760543",
+   "edited": "2026-01-30T14:21:12",
+   "edited_unixtime": "1769764872",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": "tizimga kira olmaganlaar uchun",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "tizimga kira olmaganlaar uchun"
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "🤝",
+      "recent": [
+       {
+        "from": "Yusufjon Tolibjonov",
+        "from_id": "user2057771562",
+        "date": "2026-01-30T14:21:12"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 229,
+   "type": "message",
+   "date": "2026-01-30T13:24:35",
+   "date_unixtime": "1769761475",
+   "edited": "2026-01-30T14:03:16",
+   "edited_unixtime": "1769763796",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "file": "(File not included. Change data exporting settings to download.)",
+   "file_name": "N11 python 4-dars.mp4",
+   "file_size": 348149984,
+   "thumbnail": "(File not included. Change data exporting settings to download.)",
+   "thumbnail_file_size": 9799,
+   "media_type": "video_file",
+   "mime_type": "video/mp4",
+   "duration_seconds": 5689,
+   "width": 1280,
+   "height": 720,
+   "text": "",
+   "text_entities": [],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "👍",
+      "recent": [
+       {
+        "from": "Abduvahobov",
+        "from_id": "user2110787270",
+        "date": "2026-01-30T14:03:16"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 230,
+   "type": "message",
+   "date": "2026-01-30T19:46:57",
+   "date_unixtime": "1769784417",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Qiymatlar almashuvi\nd = {\"a\": 1, \"b\": 2, \"c\": 3}\n#natija {1: \"a\", 2: \"b\", 3: \"c\"}",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Qiymatlar almashuvi\nd = {\"a\": 1, \"b\": 2, \"c\": 3}\n#natija {1: \"a\", 2: \"b\", 3: \"c\"}",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 231,
+   "type": "message",
+   "date": "2026-01-30T19:47:20",
+   "date_unixtime": "1769784440",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Dictionary yaratish\nstudent = {\n    \"name\": \"Ali\",\n    \"age\": 20,\n    \"score\": 85\n}\n\n# dict \nstudent = dict(name=\"Ali\", age=20, score=85)\n\n## Dictionary elementlariga murojaat\n# Key orqali\nprint(student[\"name\"])\n\n# get() — xavfsiz usul\nprint(student.get(\"phone\"))\nprint(student.get(\"phone\", \"yo‘q\"))\n\n# Qiymat qo‘shish va o‘zgartirish\nstudent[\"age\"] = 21\nstudent[\"phone\"] = \"998901234567\"\n\n# Update\nd1 = {\"a\": 10, \"b\": 20, \"c\": 30}\nd2 = {\"b\": 5, \"c\": 15, \"d\": 40}\nd1.update(d2)\n\n# O‘chirish\ndel student[\"score\"]\nstudent.pop(\"age\")\nstudent.clear()\n\n# Loop\nfor key in student:\n    print(key)\n\nfor value in student.values():\n    print(value)\n\nfor k, v in student.items():\n    print(k, v)",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Dictionary yaratish\nstudent = {\n    \"name\": \"Ali\",\n    \"age\": 20,\n    \"score\": 85\n}\n\n# dict \nstudent = dict(name=\"Ali\", age=20, score=85)\n\n## Dictionary elementlariga murojaat\n# Key orqali\nprint(student[\"name\"])\n\n# get() — xavfsiz usul\nprint(student.get(\"phone\"))\nprint(student.get(\"phone\", \"yo‘q\"))\n\n# Qiymat qo‘shish va o‘zgartirish\nstudent[\"age\"] = 21\nstudent[\"phone\"] = \"998901234567\"\n\n# Update\nd1 = {\"a\": 10, \"b\": 20, \"c\": 30}\nd2 = {\"b\": 5, \"c\": 15, \"d\": 40}\nd1.update(d2)\n\n# O‘chirish\ndel student[\"score\"]\nstudent.pop(\"age\")\nstudent.clear()\n\n# Loop\nfor key in student:\n    print(key)\n\nfor value in student.values():\n    print(value)\n\nfor k, v in student.items():\n    print(k, v)",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 232,
+   "type": "message",
+   "date": "2026-01-30T19:55:32",
+   "date_unixtime": "1769784932",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Eng ko‘p uchragan qiymat\nd = {\n    \"Ali\": \"Toshkent\",\n    \"Vali\": \"Samarqand\",\n    \"Hasan\": \"Toshkent\",\n    \"Olim\": \"Buxoro\",\n    \"Sardor\": \"Toshkent\"\n}",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Eng ko‘p uchragan qiymat\nd = {\n    \"Ali\": \"Toshkent\",\n    \"Vali\": \"Samarqand\",\n    \"Hasan\": \"Toshkent\",\n    \"Olim\": \"Buxoro\",\n    \"Sardor\": \"Toshkent\"\n}",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 233,
+   "type": "message",
+   "date": "2026-01-30T20:40:32",
+   "date_unixtime": "1769787632",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "def yigindi(n):\n     if n == 1:\n          return 1\n     return n + yigindi(n-1)",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "def yigindi(n):\n     if n == 1:\n          return 1\n     return n + yigindi(n-1)",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 234,
+   "type": "message",
+   "date": "2026-01-30T20:41:35",
+   "date_unixtime": "1769787695",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "def juft_top(a: list):\n     for i in a:\n          if i % 2 == 0:\n               print(f'{i} -> juft')\n          else:\n               print(f'{i} -> toq')",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "def juft_top(a: list):\n     for i in a:\n          if i % 2 == 0:\n               print(f'{i} -> juft')\n          else:\n               print(f'{i} -> toq')",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 237,
+   "type": "message",
+   "date": "2026-01-30T20:51:05",
+   "date_unixtime": "1769788265",
+   "from": "Abdulaziz",
+   "from_id": "user8407843117",
+   "text": [
+    {
+     "type": "pre",
+     "text": "def yigindi_toq(n):\n    if n % 2 != 0:\n        if n == 1:\n            return 1\n        return n + yigindi_toq(n-2)\nprint(yigindi_toq(7))",
+     "language": "python"
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "def yigindi_toq(n):\n    if n % 2 != 0:\n        if n == 1:\n            return 1\n        return n + yigindi_toq(n-2)\nprint(yigindi_toq(7))",
+     "language": "python"
+    }
+   ]
+  },
+  {
+   "id": 238,
+   "type": "message",
+   "date": "2026-01-30T20:55:04",
+   "date_unixtime": "1769788504",
+   "from": "Saydullayev Oybek",
+   "from_id": "user1596562869",
+   "text": [
+    {
+     "type": "pre",
+     "text": "# Salom ber\ndef salom_ber():\n  print('Assalomu alaykum')\n  \n# Parametrli function\ndef salom_ber(ism):\n  print('Salom', ism)\n\n# Add two numbers\ndef add(a, b):\n    print(a + b)\n\nadd(5, 3)\nadd(10, 7)\n\n# return\ndef add(a, b):\n    return a + b\n    \n# juft toq\ndef tekshir(son):\n    if son % 2 == 0:\n        return \"Juft\"\n    else:\n        return \"Toq\"\n\n# Default parametr\ndef add_two(a, b=2):\n     print(a + b)\n\n# recursive function\ndef yigindi(n):\n    if n == 1:        # bazaviy holat (to‘xtash sharti)\n        return 1\n    return n + yigindi(n - 1)\n\nprint(yigindi(5))",
+     "language": "python"
+    },
+    ""
+   ],
+   "text_entities": [
+    {
+     "type": "pre",
+     "text": "# Salom ber\ndef salom_ber():\n  print('Assalomu alaykum')\n  \n# Parametrli function\ndef salom_ber(ism):\n  print('Salom', ism)\n\n# Add two numbers\ndef add(a, b):\n    print(a + b)\n\nadd(5, 3)\nadd(10, 7)\n\n# return\ndef add(a, b):\n    return a + b\n    \n# juft toq\ndef tekshir(son):\n    if son % 2 == 0:\n        return \"Juft\"\n    else:\n        return \"Toq\"\n\n# Default parametr\ndef add_two(a, b=2):\n     print(a + b)\n\n# recursive function\ndef yigindi(n):\n    if n == 1:        # bazaviy holat (to‘xtash sharti)\n        return 1\n    return n + yigindi(n - 1)\n\nprint(yigindi(5))",
+     "language": "python"
+    },
+    {
+     "type": "plain",
+     "text": ""
+    }
+   ]
+  },
+  {
+   "id": 239,
+   "type": "message",
+   "date": "2026-01-30T23:28:28",
+   "date_unixtime": "1769797708",
+   "edited": "2026-01-30T23:29:57",
+   "edited_unixtime": "1769797797",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "text": [
+    {
+     "type": "mention",
+     "text": "@Bek_62622"
+    },
+    " aka sizam shunaqa qlolsez kereya\n\n ",
+    {
+     "type": "link",
+     "text": "https://www.instagram.com/reel/DPRVH2_DSnu/?igsh=MWpocWg3MXJiM3BnMg=="
+    }
+   ],
+   "text_entities": [
+    {
+     "type": "mention",
+     "text": "@Bek_62622"
+    },
+    {
+     "type": "plain",
+     "text": " aka sizam shunaqa qlolsez kereya\n\n "
+    },
+    {
+     "type": "link",
+     "text": "https://www.instagram.com/reel/DPRVH2_DSnu/?igsh=MWpocWg3MXJiM3BnMg=="
+    }
+   ],
+   "reactions": [
+     {
+      "type": "emoji",
+      "count": 1,
+      "emoji": "😁",
+      "recent": [
+       {
+        "from": "Adhambek Otaboyev",
+        "from_id": "user6977462815",
+        "date": "2026-01-30T23:29:57"
+       }
+      ]
+     }
+    ]
+  },
+  {
+   "id": 240,
+   "type": "message",
+   "date": "2026-01-30T23:37:28",
+   "date_unixtime": "1769798248",
+   "from": "Бек",
+   "from_id": "user675073770",
+   "reply_to_message_id": 239,
+   "text": "Yana ozgina qoldi😁",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Yana ozgina qoldi😁"
+    }
+   ]
+  },
+  {
+   "id": 241,
+   "type": "message",
+   "date": "2026-01-30T23:39:21",
+   "date_unixtime": "1769798361",
+   "from": "آيبك",
+   "from_id": "user6630015840",
+   "reply_to_message_id": 240,
+   "text": "Excel world cupga boramiz unda",
+   "text_entities": [
+    {
+     "type": "plain",
+     "text": "Excel world cupga boramiz unda"
+    }
+   ]
+  }
+ ]
+}
