@@ -1,0 +1,32 @@
+"club_id","club_name","league_id","city","founded_year","stadium_name","stadium_capacity","manager_name","budget_millions","wins","draws","losses"
+1,"Manchester United",1,"Manchester",1878,"Old Trafford",76000,"Ten Hag","450.50",0,0,0
+2,"Liverpool",1,"Liverpool",1892,"Anfield",61000,"Klopp","420.00",0,0,0
+3,"Manchester City",1,"Manchester",1880,"Etihad Stadium",55000,"Guardiola","500.00",0,0,0
+4,"Chelsea",1,"London",1905,"Stamford Bridge",63000,"Pochettino","380.50",0,0,0
+5,"Arsenal",1,"London",1886,"Emirates Stadium",60000,"Arteta","370.00",0,0,0
+6,"Tottenham Hotspur",1,"London",1882,"Tottenham Hotspur Stadium",62000,"Postecoglou","340.00",0,0,0
+7,"Newcastle United",1,"Newcastle",1881,"St James Park",52000,"Howe","320.00",0,0,0
+8,"Brighton",1,"Brighton",1901,"American Express Stadium",32500,"De Zerbi","180.00",0,0,0
+9,"Real Madrid",2,"Madrid",1902,"Estadio Santiago Bernabéu",81044,"Ancelotti","550.00",0,0,0
+10,"FC Barcelona",2,"Barcelona",1899,"Camp Nou",99354,"Xavi","480.00",0,0,0
+11,"Atletico Madrid",2,"Madrid",1903,"Wanda Metropolitano",68182,"Simeone","310.00",0,0,0
+12,"Sevilla",2,"Seville",1890,"Ramon Sanchez Pizjuan",43883,"López Montes","200.00",0,0,0
+13,"Valencia",2,"Valencia",1919,"Mestalla",55000,"Pako López","210.00",0,0,0
+14,"Juventus",3,"Turin",1897,"Allianz Stadium",41507,"Allegri","420.00",0,0,0
+15,"AC Milan",3,"Milan",1899,"San Siro",75000,"Pioli","380.00",0,0,0
+16,"Inter Milan",3,"Milan",1908,"San Siro",75000,"Inzaghi","390.00",0,0,0
+17,"Napoli",3,"Naples",1926,"Diego Armando Maradona Stadium",54726,"Rudi Garcia","300.00",0,0,0
+18,"AS Roma",3,"Rome",1927,"Stadio Olimpico",70698,"De Rossi","310.00",0,0,0
+19,"Bayern Munich",4,"Munich",1900,"Allianz Arena",75000,"Tuchel","520.00",0,0,0
+20,"Borussia Dortmund",4,"Dortmund",1909,"Signal Iduna Park",81365,"Rose","380.00",0,0,0
+21,"RB Leipzig",4,"Leipzig",2009,"Red Bull Arena",47861,"Rose","290.00",0,0,0
+22,"Bayer Leverkusen",4,"Leverkusen",1904,"BayArena",30210,"Alonso","280.00",0,0,0
+23,"Paris Saint-Germain",5,"Paris",1970,"Parc des Princes",47929,"Galtier","580.00",0,0,0
+24,"Olympique Marseille",5,"Marseille",1899,"Orange Velodrome",67394,"De Zerbi","280.00",0,0,0
+25,"Olympique Lyonnais",5,"Lyon",1950,"Parc de la Tete d'Or",59286,"Bosz","250.00",0,0,0
+26,"AS Monaco",5,"Monaco",1924,"Stade Louis II",18523,"Adi Hütter","220.00",0,0,0
+27,"FC Pakhtakor",6,"Tashkent",1956,"Pakhtakor Stadium",45000,"Chugaev","15.50",0,0,0
+28,"FC Lokomotiv",6,"Tashkent",1960,"Lokomotiv Stadium",35000,"Isakov","12.00",0,0,0
+29,"Nasaf",6,"Karshi",1999,"Central Stadium",25000,"Khodarov","8.50",0,0,0
+30,"FK Navbahor",6,"Namangan",2008,"Namangan City Stadium",20000,"Orozov","7.00",0,0,0
+31,"FK Andijan",6,"Andijan",2005,"Andijan City Stadium",18000,"Mukimov","6.50",0,0,0

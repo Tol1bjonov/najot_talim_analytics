@@ -1,0 +1,62 @@
+"player_id","player_name","club_id","position","jersey_number","age","height_cm","weight_kg","nationality","date_of_birth","salary_monthly","market_value_millions","goals_scored","assists","matches_played","yellow_cards","red_cards"
+1,"Cristiano Ronaldo",1,"Forward",7,38,187,84,"Portugal","1985-02-05","500.00","50.00",18,5,35,0,0
+2,"Bruno Fernandes",1,"Midfielder",8,28,179,80,"Portugal","1994-09-30","450.00","120.00",12,15,38,0,0
+3,"Antony",1,"Winger",21,24,174,68,"Brazil","1999-07-24","200.00","85.00",8,6,32,0,0
+4,"Harry Maguire",1,"Defender",5,29,194,100,"England","1993-03-05","280.00","60.00",2,1,30,0,0
+5,"David de Gea",1,"Goalkeeper",1,32,192,82,"Spain","1990-11-03","320.00","35.00",0,0,38,0,0
+6,"Marcus Rashford",1,"Forward",10,25,183,79,"England","1997-10-31","350.00","95.00",16,8,36,0,0
+7,"Scott McTominay",1,"Midfielder",39,26,191,88,"Scotland","1996-12-08","150.00","45.00",3,1,28,0,0
+8,"Luke Shaw",1,"Defender",23,27,184,80,"England","1995-07-12","180.00","50.00",1,2,24,0,0
+9,"Mohamed Salah",2,"Forward",11,31,175,78,"Egypt","1992-06-15","480.00","130.00",28,10,37,0,0
+10,"Virgil van Dijk",2,"Defender",4,31,193,92,"Netherlands","1991-07-08","420.00","110.00",5,1,35,0,0
+11,"Sadio Mane",2,"Forward",10,30,175,75,"Senegal","1992-04-10","390.00","80.00",20,7,33,0,0
+12,"Trent Alexander-Arnold",2,"Defender",66,24,188,81,"England","1998-10-07","280.00","100.00",1,8,32,0,0
+13,"Alisson",2,"Goalkeeper",1,30,188,91,"Brazil","1992-10-02","350.00","85.00",0,0,35,0,0
+14,"Luis Diaz",2,"Forward",23,26,179,73,"Colombia","1997-01-13","320.00","110.00",15,6,28,0,0
+15,"Luka Modric",9,"Midfielder",10,37,180,78,"Croatia","1985-09-09","520.00","45.00",4,6,28,0,0
+16,"Vinicius Junior",9,"Forward",20,22,176,73,"Brazil","2000-07-12","450.00","150.00",22,9,32,0,0
+17,"Rodrygo",9,"Forward",11,22,184,80,"Brazil","2000-01-09","380.00","120.00",18,7,30,0,0
+18,"Karim Benzema",9,"Forward",9,35,185,80,"France","1987-12-19","550.00","50.00",19,5,34,0,0
+19,"Thibaut Courtois",9,"Goalkeeper",1,30,208,96,"Belgium","1992-05-11","490.00","95.00",0,0,30,0,0
+20,"Eder Militao",9,"Defender",3,25,186,84,"Brazil","1998-01-18","320.00","100.00",3,0,28,0,0
+21,"Robert Lewandowski",10,"Forward",9,34,184,82,"Poland","1988-08-21","500.00","80.00",25,7,35,0,0
+22,"Pedri",10,"Midfielder",8,20,174,65,"Spain","2002-11-25","280.00","95.00",7,8,28,0,0
+23,"Gavi",10,"Midfielder",6,19,173,65,"Spain","2004-08-05","220.00","110.00",5,6,24,0,0
+24,"Ter Stegen",10,"Goalkeeper",1,31,187,89,"Germany","1992-04-30","420.00","75.00",0,0,32,0,0
+25,"Ousmane Dembele",10,"Forward",11,25,178,73,"France","1997-05-15","350.00","105.00",14,9,26,0,0
+26,"Robert Lewandowski",21,"Forward",9,34,184,82,"Poland","1988-08-21","480.00","75.00",28,8,38,0,0
+27,"Joshua Kimmich",21,"Midfielder",32,28,188,82,"Germany","1995-02-13","420.00","105.00",4,5,34,0,0
+28,"Dayot Upamecano",21,"Defender",2,24,186,86,"France","1998-10-24","310.00","90.00",2,0,30,0,0
+29,"Manuel Neuer",21,"Goalkeeper",1,37,193,92,"Germany","1986-03-27","500.00","40.00",0,0,32,0,0
+30,"Leroy Sane",21,"Winger",10,27,183,81,"Germany","1996-01-11","380.00","110.00",12,10,28,0,0
+31,"Kylian Mbappe",29,"Forward",7,24,178,73,"France","1998-12-20","700.00","180.00",32,12,36,0,0
+32,"Neymar Jr",29,"Forward",10,31,175,68,"Brazil","1992-02-05","650.00","95.00",18,14,28,0,0
+33,"Marco Verratti",29,"Midfielder",6,30,164,64,"Italy","1992-11-05","480.00","85.00",2,7,26,0,0
+34,"Gianluigi Donnarumma",29,"Goalkeeper",50,24,196,92,"Italy","1999-02-25","420.00","80.00",0,0,30,0,0
+35,"Sergio Ramos",29,"Defender",4,37,184,82,"Spain","1986-03-30","500.00","30.00",1,0,24,0,0
+36,"Jasurbek Yakhshiboyev",31,"Forward",9,27,182,78,"Uzbekistan","1996-05-14","8.50","2.50",12,4,22,0,0
+37,"Odiljon Khodjaev",31,"Midfielder",8,29,180,75,"Uzbekistan","1994-03-22","7.00","2.00",5,8,20,0,0
+38,"Akmaljon Murodov",31,"Defender",5,32,188,85,"Uzbekistan","1991-07-18","6.50","1.50",2,1,18,0,0
+39,"Igors Milovs",31,"Goalkeeper",1,34,190,88,"Latvia","1989-12-03","5.00","1.00",0,0,18,0,0
+40,"Mikhail Gadziayev",31,"Forward",10,26,180,76,"Uzbekistan","1997-08-11","7.50","2.20",14,5,23,0,0
+41,"Sardor Rashidov",31,"Midfielder",7,28,178,74,"Uzbekistan","1995-02-19","6.80","1.80",4,7,19,0,0
+45,"Antoine Griezmann",10,"Forward",7,32,176,73,"France","1991-03-21","300.00","25.00",0,0,0,0,0
+46,"Memphis Depay",10,"Forward",9,29,178,78,"Netherlands","1994-02-13","280.00","20.00",0,0,0,0,0
+47,"Isco",11,"Midfielder",22,31,176,79,"Spain","1992-04-21","200.00","18.00",0,0,0,0,0
+48,"Nabil Fekir",11,"Midfielder",8,30,173,72,"France","1993-07-18","220.00","22.00",0,0,0,0,0
+49,"Yannick Carrasco",10,"Midfielder",21,30,180,73,"Belgium","1993-09-04","210.00","20.00",0,0,0,0,0
+50,"Marcos Llorente",10,"Midfielder",14,29,184,74,"Spain","1995-01-30","250.00","35.00",0,0,0,0,0
+51,"Paulo Dybala",13,"Forward",21,30,177,75,"Argentina","1993-11-15","320.00","30.00",0,0,0,0,0
+55,"Lautaro Martínez",14,"Forward",10,26,174,72,"Argentina","1997-08-22","350.00","90.00",0,0,0,0,0
+62,"Serge Gnabry",21,"Forward",7,28,176,75,"Germany","1995-07-14","400.00","50.00",0,0,0,0,0
+65,"Julian Brandt",22,"Midfielder",19,27,185,83,"Germany","1996-05-02","300.00","40.00",0,0,0,0,0
+66,"Niclas Füllkrug",22,"Forward",9,31,189,83,"Germany","1993-02-09","250.00","20.00",0,0,0,0,0
+67,"Emre Can",22,"Midfielder",23,30,184,82,"Germany","1994-01-12","280.00","25.00",0,0,0,0,0
+71,"Ousmane Dembélé",29,"Forward",10,27,178,67,"France","1997-05-15","500.00","60.00",0,0,0,0,0
+72,"Vitinha",29,"Midfielder",17,24,172,64,"Portugal","2000-02-13","350.00","50.00",0,0,0,0,0
+76,"Jaloliddin Masharipov",31,"Forward",10,30,173,70,"Uzbekistan","1993-09-01","10.00","2.00",0,0,0,0,0
+77,"Otabek Shukurov",31,"Midfielder",8,27,182,75,"Uzbekistan","1996-06-22","8.00","1.50",0,0,0,0,0
+80,"Eldor Shomurodov",31,"Forward",14,28,190,85,"Uzbekistan","1995-06-29","50.00","8.00",0,0,0,0,0
+82,"Dostonbek Khamdamov",31,"Forward",7,27,178,72,"Uzbekistan","1996-07-24","7.00","1.20",0,0,0,0,0
+83,"Akmal Mozgovoy",31,"Midfielder",17,25,176,70,"Uzbekistan","1998-02-14","6.00","1.00",0,0,0,0,0
+85,"Sherzod Nasrullaev",31,"Forward",9,27,180,74,"Uzbekistan","1996-05-06","6.00","1.30",0,0,0,0,0
